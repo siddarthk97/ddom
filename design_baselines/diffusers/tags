@@ -1,0 +1,1000 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/ks1d/Documents/code/diffusers/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+**New 🎨🎨🎨** Stable Diffusion is now fully compatible with `diffusers`!	README.md	/^## **New 🎨🎨🎨** Stable Diffusion is now fully compatible with `diffusers`! $/;"	s
+ALLOWED_MODEL_SUFFIXES	utils/check_table.py	/^ALLOWED_MODEL_SUFFIXES = "Model|Encoder|Decoder|ForConditionalGeneration"$/;"	v
+ALL_IMPORTABLE_CLASSES	src/diffusers/pipeline_utils.py	/^ALL_IMPORTABLE_CLASSES = {}$/;"	v
+API	src/diffusers/models/README.md	/^## API$/;"	s	chapter:Models
+API	src/diffusers/pipelines/README.md	/^## API$/;"	s	chapter:Pipelines
+API	src/diffusers/schedulers/README.md	/^## API$/;"	s	chapter:Schedulers
+AttentionBlock	src/diffusers/models/attention.py	/^class AttentionBlock(nn.Module):$/;"	c
+AttentionBlockNew	src/diffusers/models/attention.py	/^class AttentionBlockNew(nn.Module):$/;"	c
+AttnDownBlock2D	src/diffusers/models/unet_blocks.py	/^class AttnDownBlock2D(nn.Module):$/;"	c
+AttnDownEncoderBlock2D	src/diffusers/models/unet_blocks.py	/^class AttnDownEncoderBlock2D(nn.Module):$/;"	c
+AttnSkipDownBlock2D	src/diffusers/models/unet_blocks.py	/^class AttnSkipDownBlock2D(nn.Module):$/;"	c
+AttnSkipUpBlock2D	src/diffusers/models/unet_blocks.py	/^class AttnSkipUpBlock2D(nn.Module):$/;"	c
+AttnUpBlock2D	src/diffusers/models/unet_blocks.py	/^class AttnUpBlock2D(nn.Module):$/;"	c
+AttnUpDecoderBlock2D	src/diffusers/models/unet_blocks.py	/^class AttnUpDecoderBlock2D(nn.Module):$/;"	c
+AutoencoderKL	src/diffusers/models/vae.py	/^class AutoencoderKL(ModelMixin, ConfigMixin):$/;"	c
+AutoencoderKLTests	tests/test_modeling_utils.py	/^class AutoencoderKLTests(ModelTesterMixin, unittest.TestCase):$/;"	c
+BACKENDS_MAPPING	src/diffusers/utils/import_utils.py	/^BACKENDS_MAPPING = OrderedDict($/;"	v
+BasicTransformerBlock	src/diffusers/models/attention.py	/^class BasicTransformerBlock(nn.Module):$/;"	c
+Block	src/diffusers/models/resnet.py	/^class Block(torch.nn.Module):$/;"	c
+CONFIG_CLASSES_TO_IGNORE_FOR_DOCSTRING_CHECKPOINT_CHECK	utils/check_config_docstrings.py	/^CONFIG_CLASSES_TO_IGNORE_FOR_DOCSTRING_CHECKPOINT_CHECK = {$/;"	v
+CONFIG_MAPPING	utils/check_config_docstrings.py	/^CONFIG_MAPPING = transformers.models.auto.configuration_auto.CONFIG_MAPPING$/;"	v
+CONFIG_NAME	src/diffusers/utils/__init__.py	/^CONFIG_NAME = "config.json"$/;"	v
+CONSTANT	src/diffusers/optimization.py	/^    CONSTANT = "constant"$/;"	v	class:SchedulerType
+CONSTANT_WITH_WARMUP	src/diffusers/optimization.py	/^    CONSTANT_WITH_WARMUP = "constant_with_warmup"$/;"	v	class:SchedulerType
+COSINE	src/diffusers/optimization.py	/^    COSINE = "cosine"$/;"	v	class:SchedulerType
+COSINE_WITH_RESTARTS	src/diffusers/optimization.py	/^    COSINE_WITH_RESTARTS = "cosine_with_restarts"$/;"	v	class:SchedulerType
+ConfigMixin	src/diffusers/configuration_utils.py	/^class ConfigMixin:$/;"	c
+ConfigTester	tests/test_modeling_utils.py	/^class ConfigTester(unittest.TestCase):$/;"	c
+Conv1dBlock	src/diffusers/models/resnet.py	/^class Conv1dBlock(nn.Module):$/;"	c
+Credits	README.md	/^## Credits$/;"	s
+CrossAttention	src/diffusers/models/attention.py	/^class CrossAttention(nn.Module):$/;"	c
+CrossAttnDownBlock2D	src/diffusers/models/unet_blocks.py	/^class CrossAttnDownBlock2D(nn.Module):$/;"	c
+CrossAttnUpBlock2D	src/diffusers/models/unet_blocks.py	/^class CrossAttnUpBlock2D(nn.Module):$/;"	c
+DDIMPipeline	src/diffusers/pipelines/ddim/pipeline_ddim.py	/^class DDIMPipeline(DiffusionPipeline):$/;"	c
+DDIMScheduler	src/diffusers/schedulers/scheduling_ddim.py	/^class DDIMScheduler(SchedulerMixin, ConfigMixin):$/;"	c
+DDIMSchedulerTest	tests/test_scheduler.py	/^class DDIMSchedulerTest(SchedulerCommonTest):$/;"	c
+DDPMPipeline	src/diffusers/pipelines/ddpm/pipeline_ddpm.py	/^class DDPMPipeline(DiffusionPipeline):$/;"	c
+DDPMScheduler	src/diffusers/schedulers/scheduling_ddpm.py	/^class DDPMScheduler(SchedulerMixin, ConfigMixin):$/;"	c
+DDPMSchedulerTest	tests/test_scheduler.py	/^class DDPMSchedulerTest(SchedulerCommonTest):$/;"	c
+DEPRECATED_OBJECTS	utils/check_repo.py	/^DEPRECATED_OBJECTS = [$/;"	v
+DIFFUSERS_CACHE	src/diffusers/utils/__init__.py	/^DIFFUSERS_CACHE = default_cache_path$/;"	v
+DIFFUSERS_DYNAMIC_MODULE_NAME	src/diffusers/utils/__init__.py	/^DIFFUSERS_DYNAMIC_MODULE_NAME = "diffusers_modules"$/;"	v
+DUMMY_CLASS	utils/check_dummies.py	/^DUMMY_CLASS = """$/;"	v
+DUMMY_CONSTANT	utils/check_dummies.py	/^DUMMY_CONSTANT = """$/;"	v
+DUMMY_FUNCTION	utils/check_dummies.py	/^DUMMY_FUNCTION = """$/;"	v
+Decoder	src/diffusers/models/vae.py	/^class Decoder(nn.Module):$/;"	c
+Definitions	README.md	/^## Definitions$/;"	s
+DepsTableUpdateCommand	setup.py	/^class DepsTableUpdateCommand(Command):$/;"	c
+DiagonalGaussianDistribution	src/diffusers/models/vae.py	/^class DiagonalGaussianDistribution(object):$/;"	c
+DiffusionPipeline	src/diffusers/pipeline_utils.py	/^class DiffusionPipeline(ConfigMixin):$/;"	c
+DownBlock2D	src/diffusers/models/unet_blocks.py	/^class DownBlock2D(nn.Module):$/;"	c
+DownEncoderBlock2D	src/diffusers/models/unet_blocks.py	/^class DownEncoderBlock2D(nn.Module):$/;"	c
+Downsample2D	src/diffusers/models/resnet.py	/^class Downsample2D(nn.Module):$/;"	c
+Downsample2DBlockTests	tests/test_layers_utils.py	/^class Downsample2DBlockTests(unittest.TestCase):$/;"	c
+DummyObject	src/diffusers/utils/import_utils.py	/^class DummyObject(type):$/;"	c
+EMAModel	src/diffusers/training_utils.py	/^class EMAModel:$/;"	c
+ENV_VARS_TRUE_AND_AUTO_VALUES	src/diffusers/utils/import_utils.py	/^ENV_VARS_TRUE_AND_AUTO_VALUES = ENV_VARS_TRUE_VALUES.union({"AUTO"})$/;"	v
+ENV_VARS_TRUE_VALUES	src/diffusers/utils/import_utils.py	/^ENV_VARS_TRUE_VALUES = {"1", "ON", "YES", "TRUE"}$/;"	v
+EmbeddingsTests	tests/test_layers_utils.py	/^class EmbeddingsTests(unittest.TestCase):$/;"	c
+EmptyTqdm	src/diffusers/utils/logging.py	/^class EmptyTqdm:$/;"	c
+Encoder	src/diffusers/models/vae.py	/^class Encoder(nn.Module):$/;"	c
+Examples	README.md	/^## Examples$/;"	s
+Examples	src/diffusers/models/README.md	/^## Examples$/;"	s	chapter:Models
+Examples	src/diffusers/pipelines/README.md	/^## Examples$/;"	s	chapter:Pipelines
+Examples	src/diffusers/schedulers/README.md	/^## Examples$/;"	s	chapter:Schedulers
+F	examples/train_unconditional.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	src/diffusers/models/attention.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	src/diffusers/models/resnet.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+FLAX_IMPORT_ERROR	src/diffusers/utils/import_utils.py	/^FLAX_IMPORT_ERROR = """$/;"	v
+FULL_COPIES	utils/check_copies.py	/^FULL_COPIES = {$/;"	v
+FeedForward	src/diffusers/models/attention.py	/^class FeedForward(nn.Module):$/;"	c
+FirDownsample2D	src/diffusers/models/resnet.py	/^class FirDownsample2D(nn.Module):$/;"	c
+FirUpsample2D	src/diffusers/models/resnet.py	/^class FirUpsample2D(nn.Module):$/;"	c
+FrozenDict	src/diffusers/configuration_utils.py	/^class FrozenDict(OrderedDict):$/;"	c
+GEGLU	src/diffusers/models/attention.py	/^class GEGLU(nn.Module):$/;"	c
+GaussianFourierProjection	src/diffusers/models/embeddings.py	/^class GaussianFourierProjection(nn.Module):$/;"	c
+GradTTSPipeline	src/diffusers/utils/dummy_transformers_and_inflect_and_unidecode_objects.py	/^class GradTTSPipeline(metaclass=DummyObject):$/;"	c
+GroupNorm32	src/diffusers/models/resnet.py	/^class GroupNorm32(nn.GroupNorm):$/;"	c
+HF_MODULES_CACHE	src/diffusers/utils/__init__.py	/^HF_MODULES_CACHE = os.getenv("HF_MODULES_CACHE", os.path.join(hf_cache_home, "modules"))$/;"	v
+HUGGINGFACE_CO_RESOLVE_ENDPOINT	src/diffusers/utils/__init__.py	/^HUGGINGFACE_CO_RESOLVE_ENDPOINT = "https:\/\/huggingface.co"$/;"	v
+How to use	src/diffusers/utils/model_card_template.md	/^#### How to use$/;"	t	section:{{ model_name | default("Diffusion Model") }}""Intended uses & limitations
+IGNORE_NON_AUTO_CONFIGURED	utils/check_repo.py	/^IGNORE_NON_AUTO_CONFIGURED = PRIVATE_MODELS.copy() + [$/;"	v
+IGNORE_NON_TESTED	utils/check_repo.py	/^IGNORE_NON_TESTED = PRIVATE_MODELS.copy() + [$/;"	v
+IGNORE_SUBMODULES	utils/check_inits.py	/^IGNORE_SUBMODULES = [$/;"	v
+INDEX_FILE	src/diffusers/pipeline_utils.py	/^INDEX_FILE = "diffusion_pytorch_model.bin"$/;"	v
+INFLECT_IMPORT_ERROR	src/diffusers/utils/import_utils.py	/^INFLECT_IMPORT_ERROR = """$/;"	v
+INTERNAL_OPS	utils/check_tf_ops.py	/^INTERNAL_OPS = [$/;"	v
+In the works	README.md	/^## In the works$/;"	s
+Installation	README.md	/^## Installation$/;"	s
+Installing the dependencies	examples/README.md	/^### Installing the dependencies$/;"	S	section:Training examples
+Intended uses & limitations	src/diffusers/utils/model_card_template.md	/^## Intended uses & limitations$/;"	s	chapter:{{ model_name | default("Diffusion Model") }}
+KarrasVePipeline	src/diffusers/pipelines/stochatic_karras_ve/pipeline_stochastic_karras_ve.py	/^class KarrasVePipeline(DiffusionPipeline):$/;"	c
+KarrasVeScheduler	src/diffusers/schedulers/scheduling_karras_ve.py	/^class KarrasVeScheduler(SchedulerMixin, ConfigMixin):$/;"	c
+LDMBERT_PRETRAINED_CONFIG_ARCHIVE_MAP	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^LDMBERT_PRETRAINED_CONFIG_ARCHIVE_MAP = {$/;"	v
+LDMBERT_PRETRAINED_MODEL_ARCHIVE_LIST	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^LDMBERT_PRETRAINED_MODEL_ARCHIVE_LIST = [$/;"	v
+LDMBertAttention	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^class LDMBertAttention(nn.Module):$/;"	c
+LDMBertConfig	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^class LDMBertConfig(PretrainedConfig):$/;"	c
+LDMBertEncoder	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^class LDMBertEncoder(LDMBertPreTrainedModel):$/;"	c
+LDMBertEncoderLayer	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^class LDMBertEncoderLayer(nn.Module):$/;"	c
+LDMBertModel	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^class LDMBertModel(LDMBertPreTrainedModel):$/;"	c
+LDMBertPreTrainedModel	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^class LDMBertPreTrainedModel(PreTrainedModel):$/;"	c
+LDMPipeline	src/diffusers/pipelines/latent_diffusion_uncond/pipeline_latent_diffusion_uncond.py	/^class LDMPipeline(DiffusionPipeline):$/;"	c
+LDMTextToImagePipeline	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^class LDMTextToImagePipeline(DiffusionPipeline):$/;"	c
+LDMTextToImagePipeline	src/diffusers/utils/dummy_transformers_objects.py	/^class LDMTextToImagePipeline(metaclass=DummyObject):$/;"	c
+LINEAR	src/diffusers/optimization.py	/^    LINEAR = "linear"$/;"	v	class:SchedulerType
+LMSDiscreteScheduler	src/diffusers/schedulers/scheduling_lms_discrete.py	/^class LMSDiscreteScheduler(SchedulerMixin, ConfigMixin):$/;"	c
+LMSDiscreteScheduler	src/diffusers/utils/dummy_scipy_objects.py	/^class LMSDiscreteScheduler(metaclass=DummyObject):$/;"	c
+LOADABLE_CLASSES	src/diffusers/pipeline_utils.py	/^LOADABLE_CLASSES = {$/;"	v
+LOCALIZED_READMES	utils/check_copies.py	/^LOCALIZED_READMES = {$/;"	v
+Limitations and bias	src/diffusers/utils/model_card_template.md	/^#### Limitations and bias$/;"	t	section:{{ model_name | default("Diffusion Model") }}""Intended uses & limitations
+MODEL_CARD_TEMPLATE_PATH	src/diffusers/hub_utils.py	/^MODEL_CARD_TEMPLATE_PATH = Path(__file__).parent \/ "utils" \/ "model_card_template.md"$/;"	v
+MODEL_TYPE_TO_DOC_MAPPING	utils/check_repo.py	/^MODEL_TYPE_TO_DOC_MAPPING = OrderedDict($/;"	v
+Mish	src/diffusers/models/resnet.py	/^class Mish(torch.nn.Module):$/;"	c
+Model description	src/diffusers/utils/model_card_template.md	/^## Model description$/;"	s	chapter:{{ model_name | default("Diffusion Model") }}
+ModelMixin	src/diffusers/modeling_utils.py	/^class ModelMixin(torch.nn.Module):$/;"	c
+ModelTesterMixin	tests/test_modeling_utils.py	/^class ModelTesterMixin:$/;"	c
+Models	src/diffusers/models/README.md	/^# Models$/;"	c
+NCSNppModelTests	tests/test_modeling_utils.py	/^class NCSNppModelTests(ModelTesterMixin, unittest.TestCase):$/;"	c
+NIN	src/diffusers/models/attention.py	/^class NIN(nn.Module):$/;"	c
+PATH_TO_DIFFUSERS	utils/check_dummies.py	/^PATH_TO_DIFFUSERS = "src\/diffusers"$/;"	v
+PATH_TO_DIFFUSERS	utils/check_repo.py	/^PATH_TO_DIFFUSERS = "src\/diffusers"$/;"	v
+PATH_TO_DOC	utils/check_repo.py	/^PATH_TO_DOC = "docs\/source\/en"$/;"	v
+PATH_TO_DOCS	utils/check_copies.py	/^PATH_TO_DOCS = "docs\/source\/en"$/;"	v
+PATH_TO_DOCS	utils/check_table.py	/^PATH_TO_DOCS = "docs\/source\/en"$/;"	v
+PATH_TO_TESTS	utils/check_repo.py	/^PATH_TO_TESTS = "tests"$/;"	v
+PATH_TO_TRANSFORMERS	utils/check_config_docstrings.py	/^PATH_TO_TRANSFORMERS = "src\/transformers"$/;"	v
+PATH_TO_TRANSFORMERS	utils/check_inits.py	/^PATH_TO_TRANSFORMERS = "src\/transformers"$/;"	v
+PATH_TO_TRANSFORMERS	utils/custom_init_isort.py	/^PATH_TO_TRANSFORMERS = "src\/diffusers"$/;"	v
+PNDMPipeline	src/diffusers/pipelines/pndm/pipeline_pndm.py	/^class PNDMPipeline(DiffusionPipeline):$/;"	c
+PNDMScheduler	src/diffusers/schedulers/scheduling_pndm.py	/^class PNDMScheduler(SchedulerMixin, ConfigMixin):$/;"	c
+PNDMSchedulerTest	tests/test_scheduler.py	/^class PNDMSchedulerTest(SchedulerCommonTest):$/;"	c
+POLYNOMIAL	src/diffusers/optimization.py	/^    POLYNOMIAL = "polynomial"$/;"	v	class:SchedulerType
+PRIVATE_MODELS	utils/check_repo.py	/^PRIVATE_MODELS = [$/;"	v
+PYTHONPATH	Makefile	/^export PYTHONPATH = src$/;"	m
+PYTORCH_IMPORT_ERROR	src/diffusers/utils/import_utils.py	/^PYTORCH_IMPORT_ERROR = """$/;"	v
+Philosophy	README.md	/^## Philosophy$/;"	s
+PipelineTesterMixin	tests/test_modeling_utils.py	/^class PipelineTesterMixin(unittest.TestCase):$/;"	c
+Pipelines	src/diffusers/pipelines/README.md	/^# Pipelines$/;"	c
+Provide the dataset as a folder	examples/README.md	/^#### Provide the dataset as a folder$/;"	t	subsection:Training examples""Using your own data
+Quickstart	README.md	/^## Quickstart$/;"	s
+REPO_PATH	utils/check_copies.py	/^REPO_PATH = "."$/;"	v
+REPO_PATH	utils/check_table.py	/^REPO_PATH = "."$/;"	v
+REPO_PATH	utils/check_tf_ops.py	/^REPO_PATH = "."$/;"	v
+RearrangeDim	src/diffusers/models/resnet.py	/^class RearrangeDim(nn.Module):$/;"	c
+ResnetBlock	src/diffusers/models/resnet.py	/^class ResnetBlock(nn.Module):$/;"	c
+ResnetBlock2D	src/diffusers/models/resnet.py	/^class ResnetBlock2D(nn.Module):$/;"	c
+SCHEDULER_CONFIG_NAME	src/diffusers/schedulers/scheduling_utils.py	/^SCHEDULER_CONFIG_NAME = "scheduler_config.json"$/;"	v
+SCIPY_IMPORT_ERROR	src/diffusers/utils/import_utils.py	/^SCIPY_IMPORT_ERROR = """$/;"	v
+SHOULD_HAVE_THEIR_OWN_PAGE	utils/check_repo.py	/^SHOULD_HAVE_THEIR_OWN_PAGE = [$/;"	v
+SampleObject	tests/test_modeling_utils.py	/^class SampleObject(ConfigMixin):$/;"	c
+SchedulerCommonTest	tests/test_scheduler.py	/^class SchedulerCommonTest(unittest.TestCase):$/;"	c
+SchedulerMixin	src/diffusers/schedulers/scheduling_utils.py	/^class SchedulerMixin:$/;"	c
+SchedulerType	src/diffusers/optimization.py	/^class SchedulerType(Enum):$/;"	c
+Schedulers	src/diffusers/schedulers/README.md	/^# Schedulers$/;"	c
+ScoreSdeVePipeline	src/diffusers/pipelines/score_sde_ve/pipeline_score_sde_ve.py	/^class ScoreSdeVePipeline(DiffusionPipeline):$/;"	c
+ScoreSdeVeScheduler	src/diffusers/schedulers/scheduling_sde_ve.py	/^class ScoreSdeVeScheduler(SchedulerMixin, ConfigMixin):$/;"	c
+ScoreSdeVeSchedulerTest	tests/test_scheduler.py	/^class ScoreSdeVeSchedulerTest(unittest.TestCase):$/;"	c
+ScoreSdeVpScheduler	src/diffusers/schedulers/scheduling_sde_vp.py	/^class ScoreSdeVpScheduler(SchedulerMixin, ConfigMixin):$/;"	c
+SkipDownBlock2D	src/diffusers/models/unet_blocks.py	/^class SkipDownBlock2D(nn.Module):$/;"	c
+SkipUpBlock2D	src/diffusers/models/unet_blocks.py	/^class SkipUpBlock2D(nn.Module):$/;"	c
+SpatialTransformer	src/diffusers/models/attention.py	/^class SpatialTransformer(nn.Module):$/;"	c
+StableDiffusionPipeline	src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion.py	/^class StableDiffusionPipeline(DiffusionPipeline):$/;"	c
+StableDiffusionPipeline	src/diffusers/utils/dummy_transformers_objects.py	/^class StableDiffusionPipeline(metaclass=DummyObject):$/;"	c
+StableDiffusionSafetyChecker	src/diffusers/pipelines/stable_diffusion/safety_checker.py	/^class StableDiffusionSafetyChecker(PreTrainedModel):$/;"	c
+TENSORFLOW_IMPORT_ERROR	src/diffusers/utils/import_utils.py	/^TENSORFLOW_IMPORT_ERROR = """$/;"	v
+TEST_FILES_WITH_NO_COMMON_TESTS	utils/check_repo.py	/^TEST_FILES_WITH_NO_COMMON_TESTS = [$/;"	v
+TRANSFORMERS_IMPORT_ERROR	src/diffusers/utils/import_utils.py	/^TRANSFORMERS_IMPORT_ERROR = """$/;"	v
+TRANSFORMERS_PATH	utils/check_copies.py	/^TRANSFORMERS_PATH = "src\/diffusers"$/;"	v
+TRANSFORMERS_PATH	utils/check_table.py	/^TRANSFORMERS_PATH = "src\/diffusers"$/;"	v
+TYPE_TO_SCHEDULER_FUNCTION	src/diffusers/optimization.py	/^TYPE_TO_SCHEDULER_FUNCTION = {$/;"	v
+TimestepEmbedding	src/diffusers/models/embeddings.py	/^class TimestepEmbedding(nn.Module):$/;"	c
+Timesteps	src/diffusers/models/embeddings.py	/^class Timesteps(nn.Module):$/;"	c
+Training data	src/diffusers/utils/model_card_template.md	/^## Training data$/;"	s	chapter:{{ model_name | default("Diffusion Model") }}
+Training examples	examples/README.md	/^## Training examples$/;"	s
+Training hyperparameters	src/diffusers/utils/model_card_template.md	/^### Training hyperparameters$/;"	S	section:{{ model_name | default("Diffusion Model") }}""Training data
+Training results	src/diffusers/utils/model_card_template.md	/^### Training results$/;"	S	section:{{ model_name | default("Diffusion Model") }}""Training data
+TrainingTests	tests/test_training.py	/^class TrainingTests(unittest.TestCase):$/;"	c
+UNDOCUMENTED_OBJECTS	utils/check_repo.py	/^UNDOCUMENTED_OBJECTS = [$/;"	v
+UNIDECODE_IMPORT_ERROR	src/diffusers/utils/import_utils.py	/^UNIDECODE_IMPORT_ERROR = """$/;"	v
+UNet2DConditionModel	src/diffusers/models/unet_2d_condition.py	/^class UNet2DConditionModel(ModelMixin, ConfigMixin):$/;"	c
+UNet2DModel	src/diffusers/models/unet_2d.py	/^class UNet2DModel(ModelMixin, ConfigMixin):$/;"	c
+UNetLDMModelTests	tests/test_modeling_utils.py	/^class UNetLDMModelTests(ModelTesterMixin, unittest.TestCase):$/;"	c
+UNetMidBlock2D	src/diffusers/models/unet_blocks.py	/^class UNetMidBlock2D(nn.Module):$/;"	c
+UNetMidBlock2DCrossAttn	src/diffusers/models/unet_blocks.py	/^class UNetMidBlock2DCrossAttn(nn.Module):$/;"	c
+USE_JAX	src/diffusers/utils/import_utils.py	/^USE_JAX = os.environ.get("USE_FLAX", "AUTO").upper()$/;"	v
+USE_TF	src/diffusers/utils/import_utils.py	/^USE_TF = os.environ.get("USE_TF", "AUTO").upper()$/;"	v
+USE_TORCH	src/diffusers/utils/import_utils.py	/^USE_TORCH = os.environ.get("USE_TORCH", "AUTO").upper()$/;"	v
+Unconditional Flowers	examples/README.md	/^### Unconditional Flowers  $/;"	S	section:Training examples
+Unconditional Pokemon	examples/README.md	/^### Unconditional Pokemon $/;"	S	section:Training examples
+UnetModelTests	tests/test_modeling_utils.py	/^class UnetModelTests(ModelTesterMixin, unittest.TestCase):$/;"	c
+UpBlock2D	src/diffusers/models/unet_blocks.py	/^class UpBlock2D(nn.Module):$/;"	c
+UpDecoderBlock2D	src/diffusers/models/unet_blocks.py	/^class UpDecoderBlock2D(nn.Module):$/;"	c
+Upload your data to the hub, as a (possibly private) repo	examples/README.md	/^#### Upload your data to the hub, as a (possibly private) repo$/;"	t	subsection:Training examples""Using your own data
+Upsample2D	src/diffusers/models/resnet.py	/^class Upsample2D(nn.Module):$/;"	c
+Upsample2DBlockTests	tests/test_layers_utils.py	/^class Upsample2DBlockTests(unittest.TestCase):$/;"	c
+Using your own data	examples/README.md	/^### Using your own data$/;"	S	section:Training examples
+VQModel	src/diffusers/models/vae.py	/^class VQModel(ModelMixin, ConfigMixin):$/;"	c
+VQModelTests	tests/test_modeling_utils.py	/^class VQModelTests(ModelTesterMixin, unittest.TestCase):$/;"	c
+VectorQuantizer	src/diffusers/models/vae.py	/^class VectorQuantizer(nn.Module):$/;"	c
+WEIGHTS_NAME	src/diffusers/modeling_utils.py	/^WEIGHTS_NAME = "diffusion_pytorch_model.bin"$/;"	v
+__call__	src/diffusers/pipelines/ddim/pipeline_ddim.py	/^    def __call__(self, batch_size=1, generator=None, eta=0.0, num_inference_steps=50, output_typ/;"	m	class:DDIMPipeline
+__call__	src/diffusers/pipelines/ddpm/pipeline_ddpm.py	/^    def __call__(self, batch_size=1, generator=None, output_type="pil", **kwargs):$/;"	m	class:DDPMPipeline
+__call__	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def __call__($/;"	m	class:LDMTextToImagePipeline
+__call__	src/diffusers/pipelines/latent_diffusion_uncond/pipeline_latent_diffusion_uncond.py	/^    def __call__(self, batch_size=1, generator=None, eta=0.0, num_inference_steps=50, output_typ/;"	m	class:LDMPipeline
+__call__	src/diffusers/pipelines/pndm/pipeline_pndm.py	/^    def __call__(self, batch_size=1, generator=None, num_inference_steps=50, output_type="pil", /;"	m	class:PNDMPipeline
+__call__	src/diffusers/pipelines/score_sde_ve/pipeline_score_sde_ve.py	/^    def __call__(self, batch_size=1, num_inference_steps=2000, generator=None, output_type="pil"/;"	m	class:ScoreSdeVePipeline
+__call__	src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion.py	/^    def __call__($/;"	m	class:StableDiffusionPipeline
+__call__	src/diffusers/pipelines/stochatic_karras_ve/pipeline_stochastic_karras_ve.py	/^    def __call__(self, batch_size=1, num_inference_steps=50, generator=None, output_type="pil", /;"	m	class:KarrasVePipeline
+__call__	src/diffusers/utils/logging.py	/^    def __call__(self, *args, **kwargs):$/;"	m	class:_tqdm_cls
+__delitem__	src/diffusers/configuration_utils.py	/^    def __delitem__(self, *args, **kwargs):$/;"	m	class:FrozenDict
+__enter__	src/diffusers/utils/logging.py	/^    def __enter__(self):$/;"	m	class:EmptyTqdm
+__exit__	src/diffusers/utils/logging.py	/^    def __exit__(self, type_, value, traceback):$/;"	m	class:EmptyTqdm
+__getattr__	src/diffusers/utils/import_utils.py	/^    def __getattr__(cls, key):$/;"	m	class:DummyObject
+__getattr__	src/diffusers/utils/logging.py	/^    def __getattr__(self, _):$/;"	m	class:EmptyTqdm
+__init__	src/diffusers/configuration_utils.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:FrozenDict
+__init__	src/diffusers/modeling_utils.py	/^    def __init__(self):$/;"	m	class:ModelMixin
+__init__	src/diffusers/models/attention.py	/^    def __init__($/;"	m	class:AttentionBlock
+__init__	src/diffusers/models/attention.py	/^    def __init__($/;"	m	class:AttentionBlockNew
+__init__	src/diffusers/models/attention.py	/^    def __init__(self, dim, dim_out=None, mult=4, glu=False, dropout=0.0):$/;"	m	class:FeedForward
+__init__	src/diffusers/models/attention.py	/^    def __init__(self, dim, n_heads, d_head, dropout=0.0, context_dim=None, gated_ff=True, check/;"	m	class:BasicTransformerBlock
+__init__	src/diffusers/models/attention.py	/^    def __init__(self, dim_in, dim_out):$/;"	m	class:GEGLU
+__init__	src/diffusers/models/attention.py	/^    def __init__(self, in_channels, n_heads, d_head, depth=1, dropout=0.0, context_dim=None):$/;"	m	class:SpatialTransformer
+__init__	src/diffusers/models/attention.py	/^    def __init__(self, in_dim, num_units, init_scale=0.1):$/;"	m	class:NIN
+__init__	src/diffusers/models/attention.py	/^    def __init__(self, query_dim, context_dim=None, heads=8, dim_head=64, dropout=0.0):$/;"	m	class:CrossAttention
+__init__	src/diffusers/models/embeddings.py	/^    def __init__(self, channel, time_embed_dim, act_fn="silu"):$/;"	m	class:TimestepEmbedding
+__init__	src/diffusers/models/embeddings.py	/^    def __init__(self, embedding_size=256, scale=1.0):$/;"	m	class:GaussianFourierProjection
+__init__	src/diffusers/models/embeddings.py	/^    def __init__(self, num_channels, flip_sin_to_cos, downscale_freq_shift):$/;"	m	class:Timesteps
+__init__	src/diffusers/models/resnet.py	/^    def __init__($/;"	m	class:ResnetBlock
+__init__	src/diffusers/models/resnet.py	/^    def __init__($/;"	m	class:ResnetBlock2D
+__init__	src/diffusers/models/resnet.py	/^    def __init__(self):$/;"	m	class:RearrangeDim
+__init__	src/diffusers/models/resnet.py	/^    def __init__(self, channels, use_conv=False, out_channels=None, padding=1, name="conv"):$/;"	m	class:Downsample2D
+__init__	src/diffusers/models/resnet.py	/^    def __init__(self, channels, use_conv=False, use_conv_transpose=False, out_channels=None, na/;"	m	class:Upsample2D
+__init__	src/diffusers/models/resnet.py	/^    def __init__(self, channels=None, out_channels=None, use_conv=False, fir_kernel=(1, 3, 3, 1)/;"	m	class:FirDownsample2D
+__init__	src/diffusers/models/resnet.py	/^    def __init__(self, channels=None, out_channels=None, use_conv=False, fir_kernel=(1, 3, 3, 1)/;"	m	class:FirUpsample2D
+__init__	src/diffusers/models/resnet.py	/^    def __init__(self, dim, dim_out, groups=8):$/;"	m	class:Block
+__init__	src/diffusers/models/resnet.py	/^    def __init__(self, inp_channels, out_channels, kernel_size, n_groups=8):$/;"	m	class:Conv1dBlock
+__init__	src/diffusers/models/resnet.py	/^    def __init__(self, num_groups, num_channels, swish, eps=1e-5):$/;"	m	class:GroupNorm32
+__init__	src/diffusers/models/unet_2d.py	/^    def __init__($/;"	m	class:UNet2DModel
+__init__	src/diffusers/models/unet_2d_condition.py	/^    def __init__($/;"	m	class:UNet2DConditionModel
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:AttnDownBlock2D
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:AttnDownEncoderBlock2D
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:AttnSkipDownBlock2D
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:AttnSkipUpBlock2D
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:AttnUpBlock2D
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:AttnUpDecoderBlock2D
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:CrossAttnDownBlock2D
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:CrossAttnUpBlock2D
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:DownBlock2D
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:DownEncoderBlock2D
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:SkipDownBlock2D
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:SkipUpBlock2D
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:UNetMidBlock2D
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:UNetMidBlock2DCrossAttn
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:UpBlock2D
+__init__	src/diffusers/models/unet_blocks.py	/^    def __init__($/;"	m	class:UpDecoderBlock2D
+__init__	src/diffusers/models/vae.py	/^    def __init__($/;"	m	class:AutoencoderKL
+__init__	src/diffusers/models/vae.py	/^    def __init__($/;"	m	class:Decoder
+__init__	src/diffusers/models/vae.py	/^    def __init__($/;"	m	class:Encoder
+__init__	src/diffusers/models/vae.py	/^    def __init__($/;"	m	class:VQModel
+__init__	src/diffusers/models/vae.py	/^    def __init__(self, n_e, e_dim, beta, remap=None, unknown_index="random", sane_index_shape=Fa/;"	m	class:VectorQuantizer
+__init__	src/diffusers/models/vae.py	/^    def __init__(self, parameters, deterministic=False):$/;"	m	class:DiagonalGaussianDistribution
+__init__	src/diffusers/pipelines/ddim/pipeline_ddim.py	/^    def __init__(self, unet, scheduler):$/;"	m	class:DDIMPipeline
+__init__	src/diffusers/pipelines/ddpm/pipeline_ddpm.py	/^    def __init__(self, unet, scheduler):$/;"	m	class:DDPMPipeline
+__init__	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def __init__($/;"	m	class:LDMBertAttention
+__init__	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def __init__($/;"	m	class:LDMBertConfig
+__init__	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def __init__(self, config):$/;"	m	class:LDMBertModel
+__init__	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def __init__(self, config: LDMBertConfig):$/;"	m	class:LDMBertEncoder
+__init__	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def __init__(self, config: LDMBertConfig):$/;"	m	class:LDMBertEncoderLayer
+__init__	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def __init__(self, vqvae, bert, tokenizer, unet, scheduler):$/;"	m	class:LDMTextToImagePipeline
+__init__	src/diffusers/pipelines/latent_diffusion_uncond/pipeline_latent_diffusion_uncond.py	/^    def __init__(self, vqvae, unet, scheduler):$/;"	m	class:LDMPipeline
+__init__	src/diffusers/pipelines/pndm/pipeline_pndm.py	/^    def __init__(self, unet, scheduler):$/;"	m	class:PNDMPipeline
+__init__	src/diffusers/pipelines/score_sde_ve/pipeline_score_sde_ve.py	/^    def __init__(self, unet, scheduler):$/;"	m	class:ScoreSdeVePipeline
+__init__	src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion.py	/^    def __init__($/;"	m	class:StableDiffusionPipeline
+__init__	src/diffusers/pipelines/stable_diffusion/safety_checker.py	/^    def __init__(self, config: CLIPConfig):$/;"	m	class:StableDiffusionSafetyChecker
+__init__	src/diffusers/pipelines/stochatic_karras_ve/pipeline_stochastic_karras_ve.py	/^    def __init__(self, unet, scheduler):$/;"	m	class:KarrasVePipeline
+__init__	src/diffusers/schedulers/scheduling_ddim.py	/^    def __init__($/;"	m	class:DDIMScheduler
+__init__	src/diffusers/schedulers/scheduling_ddpm.py	/^    def __init__($/;"	m	class:DDPMScheduler
+__init__	src/diffusers/schedulers/scheduling_karras_ve.py	/^    def __init__($/;"	m	class:KarrasVeScheduler
+__init__	src/diffusers/schedulers/scheduling_lms_discrete.py	/^    def __init__($/;"	m	class:LMSDiscreteScheduler
+__init__	src/diffusers/schedulers/scheduling_pndm.py	/^    def __init__($/;"	m	class:PNDMScheduler
+__init__	src/diffusers/schedulers/scheduling_sde_ve.py	/^    def __init__($/;"	m	class:ScoreSdeVeScheduler
+__init__	src/diffusers/schedulers/scheduling_sde_vp.py	/^    def __init__(self, num_train_timesteps=2000, beta_min=0.1, beta_max=20, sampling_eps=1e-3, t/;"	m	class:ScoreSdeVpScheduler
+__init__	src/diffusers/training_utils.py	/^    def __init__($/;"	m	class:EMAModel
+__init__	src/diffusers/utils/dummy_scipy_objects.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:LMSDiscreteScheduler
+__init__	src/diffusers/utils/dummy_transformers_and_inflect_and_unidecode_objects.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:GradTTSPipeline
+__init__	src/diffusers/utils/dummy_transformers_objects.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:LDMTextToImagePipeline
+__init__	src/diffusers/utils/dummy_transformers_objects.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:StableDiffusionPipeline
+__init__	src/diffusers/utils/logging.py	/^    def __init__(self, *args, **kwargs):  # pylint: disable=unused-argument$/;"	m	class:EmptyTqdm
+__init__	tests/test_modeling_utils.py	/^    def __init__($/;"	m	class:SampleObject
+__iter__	src/diffusers/utils/logging.py	/^    def __iter__(self):$/;"	m	class:EmptyTqdm
+__len__	src/diffusers/schedulers/scheduling_ddim.py	/^    def __len__(self):$/;"	m	class:DDIMScheduler
+__len__	src/diffusers/schedulers/scheduling_ddpm.py	/^    def __len__(self):$/;"	m	class:DDPMScheduler
+__len__	src/diffusers/schedulers/scheduling_lms_discrete.py	/^    def __len__(self):$/;"	m	class:LMSDiscreteScheduler
+__len__	src/diffusers/schedulers/scheduling_pndm.py	/^    def __len__(self):$/;"	m	class:PNDMScheduler
+__len__	src/diffusers/schedulers/scheduling_sde_ve.py	/^    def __len__(self):$/;"	m	class:ScoreSdeVeScheduler
+__len__	src/diffusers/schedulers/scheduling_sde_vp.py	/^    def __len__(self):$/;"	m	class:ScoreSdeVpScheduler
+__repr__	src/diffusers/configuration_utils.py	/^    def __repr__(self):$/;"	m	class:ConfigMixin
+__setattr__	src/diffusers/configuration_utils.py	/^    def __setattr__(self, name, value):$/;"	m	class:FrozenDict
+__setitem__	src/diffusers/configuration_utils.py	/^    def __setitem__(self, name, value):$/;"	m	class:FrozenDict
+__version__	src/diffusers/__init__.py	/^__version__ = "0.2.3"$/;"	v
+_automatically_saved_args	src/diffusers/modeling_utils.py	/^    _automatically_saved_args = ["_diffusers_version", "_class_name", "_name_or_path"]$/;"	v	class:ModelMixin
+_backends	src/diffusers/utils/dummy_scipy_objects.py	/^    _backends = ["scipy"]$/;"	v	class:LMSDiscreteScheduler
+_backends	src/diffusers/utils/dummy_transformers_and_inflect_and_unidecode_objects.py	/^    _backends = ["transformers", "inflect", "unidecode"]$/;"	v	class:GradTTSPipeline
+_backends	src/diffusers/utils/dummy_transformers_objects.py	/^    _backends = ["transformers"]$/;"	v	class:LDMTextToImagePipeline
+_backends	src/diffusers/utils/dummy_transformers_objects.py	/^    _backends = ["transformers"]$/;"	v	class:StableDiffusionPipeline
+_center_text	utils/check_table.py	/^def _center_text(text, width):$/;"	f
+_configure_library_root_logger	src/diffusers/utils/logging.py	/^def _configure_library_root_logger() -> None:$/;"	f	typeref:typename:None
+_default_handler	src/diffusers/utils/logging.py	/^_default_handler: Optional[logging.Handler] = None$/;"	v	typeref:typename:Optional[logging.Handler]
+_default_log_level	src/diffusers/utils/logging.py	/^_default_log_level = logging.WARNING$/;"	v
+_deps	setup.py	/^_deps = [$/;"	v
+_dict_from_json_file	src/diffusers/configuration_utils.py	/^    def _dict_from_json_file(cls, json_file: Union[str, os.PathLike]):$/;"	m	class:ConfigMixin
+_downsample_2d	src/diffusers/models/resnet.py	/^    def _downsample_2d(self, x, w=None, k=None, factor=2, gain=1):$/;"	m	class:FirDownsample2D
+_expand_mask	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^def _expand_mask(mask: torch.Tensor, dtype: torch.dtype, tgt_len: Optional[int] = None):$/;"	f
+_find_mismatched_keys	src/diffusers/modeling_utils.py	/^        def _find_mismatched_keys($/;"	f	member:ModelMixin._load_pretrained_model	file:
+_find_text_in_file	utils/check_copies.py	/^def _find_text_in_file(filename, start_prompt, end_prompt):$/;"	f
+_find_text_in_file	utils/check_table.py	/^def _find_text_in_file(filename, start_prompt, end_prompt):$/;"	f
+_flax_available	src/diffusers/utils/import_utils.py	/^            _flax_available = False$/;"	v
+_flax_available	src/diffusers/utils/import_utils.py	/^    _flax_available = importlib.util.find_spec("jax") is not None and importlib.util.find_spec("/;"	v
+_flax_version	src/diffusers/utils/import_utils.py	/^            _flax_version = importlib_metadata.version("flax")$/;"	v
+_get_default_logging_level	src/diffusers/utils/logging.py	/^def _get_default_logging_level():$/;"	f
+_get_library_name	src/diffusers/utils/logging.py	/^def _get_library_name() -> str:$/;"	f	typeref:typename:str
+_get_library_root_logger	src/diffusers/utils/logging.py	/^def _get_library_root_logger() -> logging.Logger:$/;"	f	typeref:typename:logging.Logger
+_get_prev_sample	src/diffusers/schedulers/scheduling_pndm.py	/^    def _get_prev_sample(self, sample, timestep, timestep_prev, model_output):$/;"	m	class:PNDMScheduler
+_get_variance	src/diffusers/schedulers/scheduling_ddim.py	/^    def _get_variance(self, timestep, prev_timestep):$/;"	m	class:DDIMScheduler
+_get_variance	src/diffusers/schedulers/scheduling_ddpm.py	/^    def _get_variance(self, t, predicted_variance=None, variance_type=None):$/;"	m	class:DDPMScheduler
+_inflect_available	src/diffusers/utils/import_utils.py	/^    _inflect_available = False$/;"	v
+_inflect_available	src/diffusers/utils/import_utils.py	/^_inflect_available = importlib.util.find_spec("inflect") is not None$/;"	v
+_init_weights	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def _init_weights(self, module):$/;"	m	class:LDMBertPreTrainedModel
+_inner	utils/custom_init_isort.py	/^    def _inner(x):$/;"	f	function:ignore_underscore	file:
+_keys_to_ignore_on_load_unexpected	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    _keys_to_ignore_on_load_unexpected = [r"encoder\\.version", r"decoder\\.version"]$/;"	v	class:LDMBertPreTrainedModel
+_load_pretrained_model	src/diffusers/modeling_utils.py	/^    def _load_pretrained_model($/;"	m	class:ModelMixin
+_load_state_dict_into_model	src/diffusers/modeling_utils.py	/^def _load_state_dict_into_model(model_to_load, state_dict):$/;"	f
+_lock	src/diffusers/utils/logging.py	/^_lock = threading.Lock()$/;"	v
+_modelcards_available	src/diffusers/utils/import_utils.py	/^    _modelcards_available = False$/;"	v
+_modelcards_available	src/diffusers/utils/import_utils.py	/^_modelcards_available = importlib.util.find_spec("modelcards") is not None$/;"	v
+_re_backend	utils/check_dummies.py	/^_re_backend = re.compile(r"is\\_([a-z_]*)_available\\(\\)")$/;"	v
+_re_backend	utils/check_inits.py	/^_re_backend = re.compile(r"is\\_([a-z_]*)_available()")$/;"	v
+_re_between_brackets	utils/check_inits.py	/^_re_between_brackets = re.compile("^\\s+\\[([^\\]]+)\\]")$/;"	v
+_re_bracket_content	utils/custom_init_isort.py	/^_re_bracket_content = re.compile(r"\\[([^\\]]+)\\]")$/;"	v
+_re_checkpoint	utils/check_config_docstrings.py	/^_re_checkpoint = re.compile("\\[(.+?)\\]\\((https:\/\/huggingface\\.co\/.+?)\\)")$/;"	v
+_re_configuration_file	src/diffusers/configuration_utils.py	/^_re_configuration_file = re.compile(r"config\\.(.*)\\.json")$/;"	v
+_re_copy_warning	utils/check_copies.py	/^_re_copy_warning = re.compile(r"^(\\s*)#\\s*Copied from\\s+diffusers\\.(\\S+\\.\\S+)\\s*($|\\S.*/;"	v
+_re_decorator	utils/check_repo.py	/^_re_decorator = re.compile(r"^\\s*@(\\S+)\\s+$")$/;"	v
+_re_direct_key	utils/custom_init_isort.py	/^_re_direct_key = re.compile(r'^\\s*"([^"]+)":')$/;"	v
+_re_double_backquotes	utils/check_repo.py	/^_re_double_backquotes = re.compile(r"(^|[^`])``([^`]+)``([^`]|$)")$/;"	v
+_re_else	utils/check_inits.py	/^_re_else = re.compile(r"^\\s*else:")$/;"	v
+_re_flax_models	utils/check_table.py	/^_re_flax_models = re.compile(r"Flax(.*)(?:Model|Encoder|Decoder|ForConditionalGeneration)")$/;"	v
+_re_import	utils/check_inits.py	/^_re_import = re.compile(r"\\s+from\\s+\\S*\\s+import\\s+([^\\(\\s].*)\\n")$/;"	v
+_re_import_struct_add_many	utils/check_inits.py	/^_re_import_struct_add_many = re.compile(r"^\\s*_import_structure\\[\\S*\\](?:\\.extend\\(|\\s*=\\/;"	v
+_re_import_struct_add_one	utils/check_inits.py	/^_re_import_struct_add_one = re.compile(r'^\\s*_import_structure\\["\\S*"\\]\\.append\\("(\\S*)"\\/;"	v
+_re_import_struct_key_value	utils/check_inits.py	/^_re_import_struct_key_value = re.compile(r'\\s+"\\S*":\\s+\\[([^\\]]*)\\]')$/;"	v
+_re_indent	utils/custom_init_isort.py	/^_re_indent = re.compile(r"^(\\s*)\\S")$/;"	v
+_re_indirect_key	utils/custom_init_isort.py	/^_re_indirect_key = re.compile(r'^\\s*_import_structure\\["([^"]+)"\\]')$/;"	v
+_re_one_line_import_struct	utils/check_inits.py	/^_re_one_line_import_struct = re.compile(r"^_import_structure\\s+=\\s+\\{([^\\}]+)\\}")$/;"	v
+_re_pt_models	utils/check_table.py	/^_re_pt_models = re.compile(r"(.*)(?:Model|Encoder|Decoder|ForConditionalGeneration)")$/;"	v
+_re_quote_object	utils/check_inits.py	/^_re_quote_object = re.compile('^\\s+"([^"]+)",')$/;"	v
+_re_replace_pattern	utils/check_copies.py	/^_re_replace_pattern = re.compile(r"^\\s*(\\S+)->(\\S+)(\\s+.*|$)")$/;"	v
+_re_rst_example	utils/check_repo.py	/^_re_rst_example = re.compile(r"^\\s*Example.*::\\s*$", flags=re.MULTILINE)$/;"	v
+_re_rst_special_words	utils/check_repo.py	/^_re_rst_special_words = re.compile(r":(?:obj|func|class|meth):`([^`]+)`")$/;"	v
+_re_single_line_import	utils/check_dummies.py	/^_re_single_line_import = re.compile(r"\\s+from\\s+\\S*\\s+import\\s+([^\\(\\s].*)\\n")$/;"	v
+_re_strip_line	utils/custom_init_isort.py	/^_re_strip_line = re.compile(r'^\\s*"([^"]+)",\\s*$')$/;"	v
+_re_test_backend	utils/check_inits.py	/^_re_test_backend = re.compile(r"^\\s*if\\s+not\\s+is\\_[a-z_]*\\_available\\(\\)")$/;"	v
+_re_tf_models	utils/check_table.py	/^_re_tf_models = re.compile(r"TF(.*)(?:Model|Encoder|Decoder|ForConditionalGeneration)")$/;"	v
+_re_try	utils/check_inits.py	/^_re_try = re.compile(r"^\\s*try:")$/;"	v
+_rep	utils/check_copies.py	/^    def _rep(match):$/;"	f	function:convert_to_localized_md	file:
+_replace	utils/custom_init_isort.py	/^    def _replace(match):$/;"	f	function:sort_objects_in_import	file:
+_reset_library_root_logger	src/diffusers/utils/logging.py	/^def _reset_library_root_logger() -> None:$/;"	f	typeref:typename:None
+_run_slow_tests	src/diffusers/testing_utils.py	/^_run_slow_tests = parse_flag_from_env("RUN_SLOW", default=False)$/;"	v
+_scipy_available	src/diffusers/utils/import_utils.py	/^    _scipy_available = False$/;"	v
+_scipy_available	src/diffusers/utils/import_utils.py	/^_scipy_available = importlib.util.find_spec("scipy") is not None$/;"	v
+_set_gradient_checkpointing	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def _set_gradient_checkpointing(self, module, value=False):$/;"	m	class:LDMBertPreTrainedModel
+_shape	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def _shape(self, tensor: torch.Tensor, seq_len: int, bsz: int):$/;"	m	class:LDMBertAttention
+_should_continue	utils/check_copies.py	/^def _should_continue(line, indent):$/;"	f
+_tf_available	src/diffusers/utils/import_utils.py	/^            _tf_available = False$/;"	v
+_tf_available	src/diffusers/utils/import_utils.py	/^        _tf_available = _tf_version is not None$/;"	v
+_tf_available	src/diffusers/utils/import_utils.py	/^    _tf_available = False$/;"	v
+_tf_available	src/diffusers/utils/import_utils.py	/^    _tf_available = importlib.util.find_spec("tensorflow") is not None$/;"	v
+_tf_version	src/diffusers/utils/import_utils.py	/^        _tf_version = None$/;"	v
+_tf_version	src/diffusers/utils/import_utils.py	/^_tf_version = "N\/A"$/;"	v
+_torch_available	src/diffusers/utils/import_utils.py	/^            _torch_available = False$/;"	v
+_torch_available	src/diffusers/utils/import_utils.py	/^    _torch_available = False$/;"	v
+_torch_available	src/diffusers/utils/import_utils.py	/^    _torch_available = importlib.util.find_spec("torch") is not None$/;"	v
+_torch_version	src/diffusers/utils/import_utils.py	/^_torch_version = "N\/A"$/;"	v
+_tqdm_active	src/diffusers/utils/logging.py	/^_tqdm_active = True$/;"	v
+_tqdm_cls	src/diffusers/utils/logging.py	/^class _tqdm_cls:$/;"	c
+_transformers_available	src/diffusers/utils/import_utils.py	/^    _transformers_available = False$/;"	v
+_transformers_available	src/diffusers/utils/import_utils.py	/^_transformers_available = importlib.util.find_spec("transformers") is not None$/;"	v
+_unidecode_available	src/diffusers/utils/import_utils.py	/^    _unidecode_available = False$/;"	v
+_unidecode_available	src/diffusers/utils/import_utils.py	/^_unidecode_available = importlib.util.find_spec("unidecode") is not None$/;"	v
+_upsample_2d	src/diffusers/models/resnet.py	/^    def _upsample_2d(self, x, w=None, k=None, factor=2, gain=1):$/;"	m	class:FirUpsample2D
+add_handler	src/diffusers/utils/logging.py	/^def add_handler(handler: logging.Handler) -> None:$/;"	f	typeref:typename:None
+add_noise	src/diffusers/schedulers/scheduling_ddim.py	/^    def add_noise(self, original_samples, noise, timesteps):$/;"	m	class:DDIMScheduler
+add_noise	src/diffusers/schedulers/scheduling_ddpm.py	/^    def add_noise(self, original_samples, noise, timesteps):$/;"	m	class:DDPMScheduler
+add_noise	src/diffusers/schedulers/scheduling_karras_ve.py	/^    def add_noise(self, original_samples, noise, timesteps):$/;"	m	class:KarrasVeScheduler
+add_noise	src/diffusers/schedulers/scheduling_lms_discrete.py	/^    def add_noise(self, original_samples, noise, timesteps):$/;"	m	class:LMSDiscreteScheduler
+add_noise	src/diffusers/schedulers/scheduling_pndm.py	/^    def add_noise(self, original_samples, noise, timesteps):$/;"	m	class:PNDMScheduler
+add_noise_to_input	src/diffusers/schedulers/scheduling_karras_ve.py	/^    def add_noise_to_input(self, sample, sigma, generator=None):$/;"	m	class:KarrasVeScheduler
+alpha_bar	src/diffusers/schedulers/scheduling_ddim.py	/^    def alpha_bar(time_step):$/;"	f	function:betas_for_alpha_bar	file:
+alpha_bar	src/diffusers/schedulers/scheduling_ddpm.py	/^    def alpha_bar(time_step):$/;"	f	function:betas_for_alpha_bar	file:
+alpha_bar	src/diffusers/schedulers/scheduling_pndm.py	/^    def alpha_bar(time_step):$/;"	f	function:betas_for_alpha_bar	file:
+analyze_results	utils/check_inits.py	/^def analyze_results(import_dict_objects, type_hint_objects):$/;"	f
+api	scripts/generate_logits.py	/^api = HfApi()$/;"	v
+args	examples/train_unconditional.py	/^    args = parser.parse_args()$/;"	v
+args	scripts/change_naming_configs_and_checkpoints.py	/^    args = parser.parse_args()$/;"	v
+args	scripts/conversion_ldm_uncond.py	/^    args = parser.parse_args()$/;"	v
+args	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^    args = parser.parse_args()$/;"	v
+args	scripts/convert_ldm_original_checkpoint_to_diffusers.py	/^    args = parser.parse_args()$/;"	v
+args	scripts/convert_ncsnpp_original_checkpoint_to_diffusers.py	/^    args = parser.parse_args()$/;"	v
+args	utils/check_copies.py	/^    args = parser.parse_args()$/;"	v
+args	utils/check_dummies.py	/^    args = parser.parse_args()$/;"	v
+args	utils/check_table.py	/^    args = parser.parse_args()$/;"	v
+args	utils/check_tf_ops.py	/^    args = parser.parse_args()$/;"	v
+args	utils/custom_init_isort.py	/^    args = parser.parse_args()$/;"	v
+assign_to_checkpoint	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^def assign_to_checkpoint(paths, checkpoint, old_checkpoint, attention_paths_to_split=None, addit/;"	f
+assign_to_checkpoint	scripts/convert_ldm_original_checkpoint_to_diffusers.py	/^def assign_to_checkpoint(paths, checkpoint, old_checkpoint, attention_paths_to_split=None, addit/;"	f
+attribute_map	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    attribute_map = {"num_attention_heads": "encoder_attention_heads", "hidden_size": "d_model"}$/;"	v	class:LDMBertConfig
+autogenerate_code	Makefile	/^autogenerate_code: deps_table_update$/;"	t
+base_model_prefix	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    base_model_prefix = "model"$/;"	v	class:LDMBertPreTrainedModel
+betas_for_alpha_bar	src/diffusers/schedulers/scheduling_ddim.py	/^def betas_for_alpha_bar(num_diffusion_timesteps, max_beta=0.999):$/;"	f
+betas_for_alpha_bar	src/diffusers/schedulers/scheduling_ddpm.py	/^def betas_for_alpha_bar(num_diffusion_timesteps, max_beta=0.999):$/;"	f
+betas_for_alpha_bar	src/diffusers/schedulers/scheduling_pndm.py	/^def betas_for_alpha_bar(num_diffusion_timesteps, max_beta=0.999):$/;"	f
+blackify	utils/check_copies.py	/^def blackify(code):$/;"	f
+camel_case_split	utils/check_table.py	/^def camel_case_split(identifier):$/;"	f
+candidates	src/diffusers/utils/import_utils.py	/^        candidates = ($/;"	v
+check_all_decorator_order	utils/check_repo.py	/^def check_all_decorator_order():$/;"	f
+check_all_inits	utils/check_inits.py	/^def check_all_inits():$/;"	f
+check_all_models_are_auto_configured	utils/check_repo.py	/^def check_all_models_are_auto_configured():$/;"	f
+check_all_models_are_tested	utils/check_repo.py	/^def check_all_models_are_tested():$/;"	f
+check_all_objects_are_documented	utils/check_repo.py	/^def check_all_objects_are_documented():$/;"	f
+check_config_docstrings_have_checkpoints	utils/check_config_docstrings.py	/^def check_config_docstrings_have_checkpoints():$/;"	f
+check_copies	utils/check_copies.py	/^def check_copies(overwrite: bool = False):$/;"	f
+check_decorator_order	utils/check_repo.py	/^def check_decorator_order(filename):$/;"	f
+check_dirs	Makefile	/^check_dirs := examples tests src utils$/;"	m
+check_docstrings_are_in_md	utils/check_repo.py	/^def check_docstrings_are_in_md():$/;"	f
+check_dummies	utils/check_dummies.py	/^def check_dummies(overwrite=False):$/;"	f
+check_full_copies	utils/check_copies.py	/^def check_full_copies(overwrite: bool = False):$/;"	f
+check_imports	src/diffusers/dynamic_modules_utils.py	/^def check_imports(filename):$/;"	f
+check_model_list	utils/check_repo.py	/^def check_model_list():$/;"	f
+check_model_list_copy	utils/check_copies.py	/^def check_model_list_copy(overwrite=False, max_per_line=119):$/;"	f
+check_model_table	utils/check_table.py	/^def check_model_table(overwrite=False):$/;"	f
+check_model_type_doc_match	utils/check_repo.py	/^def check_model_type_doc_match():$/;"	f
+check_models_are_auto_configured	utils/check_repo.py	/^def check_models_are_auto_configured(module, all_auto_models):$/;"	f
+check_models_are_in_init	utils/check_repo.py	/^def check_models_are_in_init():$/;"	f
+check_models_are_tested	utils/check_repo.py	/^def check_models_are_tested(module, test_file):$/;"	f
+check_over_configs	tests/test_scheduler.py	/^    def check_over_configs(self, time_step=0, **config):$/;"	m	class:PNDMSchedulerTest
+check_over_configs	tests/test_scheduler.py	/^    def check_over_configs(self, time_step=0, **config):$/;"	m	class:SchedulerCommonTest
+check_over_configs	tests/test_scheduler.py	/^    def check_over_configs(self, time_step=0, **config):$/;"	m	class:ScoreSdeVeSchedulerTest
+check_over_forward	tests/test_scheduler.py	/^    def check_over_forward(self, time_step=0, **forward_kwargs):$/;"	m	class:PNDMSchedulerTest
+check_over_forward	tests/test_scheduler.py	/^    def check_over_forward(self, time_step=0, **forward_kwargs):$/;"	m	class:SchedulerCommonTest
+check_over_forward	tests/test_scheduler.py	/^    def check_over_forward(self, time_step=0, **forward_kwargs):$/;"	m	class:ScoreSdeVeSchedulerTest
+check_repo_quality	utils/check_repo.py	/^def check_repo_quality():$/;"	f
+check_submodules	utils/check_inits.py	/^def check_submodules():$/;"	f
+checkpoint	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^    checkpoint = torch.load(args.checkpoint_path)$/;"	v
+checkpoint	scripts/convert_ldm_original_checkpoint_to_diffusers.py	/^    checkpoint = torch.load(args.checkpoint_path)$/;"	v
+checkpoint	scripts/convert_ncsnpp_original_checkpoint_to_diffusers.py	/^    checkpoint = torch.load(args.checkpoint_path, map_location="cpu")$/;"	v
+clip	src/diffusers/schedulers/scheduling_utils.py	/^    def clip(self, tensor, min_value=None, max_value=None):$/;"	m	class:SchedulerMixin
+config	scripts/change_naming_configs_and_checkpoints.py	/^        config = json.loads(text)$/;"	v
+config	scripts/change_naming_configs_and_checkpoints.py	/^    config = dict(model.config)$/;"	v
+config	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^        config = json.loads(f.read())$/;"	v
+config	scripts/convert_ldm_original_checkpoint_to_diffusers.py	/^        config = json.loads(f.read())$/;"	v
+config	scripts/convert_ncsnpp_original_checkpoint_to_diffusers.py	/^        config = json.loads(f.read())$/;"	v
+config	src/diffusers/configuration_utils.py	/^    def config(self) -> Dict[str, Any]:$/;"	m	class:ConfigMixin	typeref:typename:Dict[str,Any]
+config_class	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    config_class = LDMBertConfig$/;"	v	class:LDMBertPreTrainedModel
+config_class	src/diffusers/pipelines/stable_diffusion/safety_checker.py	/^    config_class = CLIPConfig$/;"	v	class:StableDiffusionSafetyChecker
+config_name	src/diffusers/configuration_utils.py	/^    config_name = None$/;"	v	class:ConfigMixin
+config_name	src/diffusers/modeling_utils.py	/^    config_name = CONFIG_NAME$/;"	v	class:ModelMixin
+config_name	src/diffusers/pipeline_utils.py	/^    config_name = "model_index.json"$/;"	v	class:DiffusionPipeline
+config_name	src/diffusers/schedulers/scheduling_utils.py	/^    config_name = SCHEDULER_CONFIG_NAME$/;"	v	class:SchedulerMixin
+config_name	tests/test_modeling_utils.py	/^    config_name = "config.json"$/;"	v	class:SampleObject
+config_parameters_to_change	scripts/change_naming_configs_and_checkpoints.py	/^    config_parameters_to_change = {$/;"	v
+convert_ddpm_checkpoint	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^def convert_ddpm_checkpoint(checkpoint, config):$/;"	f
+convert_ldm_checkpoint	scripts/convert_ldm_original_checkpoint_to_diffusers.py	/^def convert_ldm_checkpoint(checkpoint, config):$/;"	f
+convert_ldm_original	scripts/conversion_ldm_uncond.py	/^def convert_ldm_original(checkpoint_path, config_path, output_path):$/;"	f
+convert_ncsnpp_checkpoint	scripts/convert_ncsnpp_original_checkpoint_to_diffusers.py	/^def convert_ncsnpp_checkpoint(checkpoint, config):$/;"	f
+convert_readme_to_index	utils/check_copies.py	/^def convert_readme_to_index(model_list):$/;"	f
+convert_to_localized_md	utils/check_copies.py	/^def convert_to_localized_md(model_list, localized_model_list, format_str):$/;"	f
+convert_vq_autoenc_checkpoint	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^def convert_vq_autoenc_checkpoint(checkpoint, config):$/;"	f
+converted_checkpoint	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^        converted_checkpoint = convert_vq_autoenc_checkpoint(checkpoint, config)$/;"	v
+converted_checkpoint	scripts/convert_ldm_original_checkpoint_to_diffusers.py	/^    converted_checkpoint = convert_ldm_checkpoint(checkpoint, config)$/;"	v
+converted_checkpoint	scripts/convert_ncsnpp_original_checkpoint_to_diffusers.py	/^    converted_checkpoint = convert_ncsnpp_checkpoint($/;"	v
+cosine_distance	src/diffusers/pipelines/stable_diffusion/safety_checker.py	/^def cosine_distance(image_embeds, text_embeds):$/;"	f
+create_custom_forward	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^                def create_custom_forward(module):$/;"	f	member:LDMBertEncoder.forward	file:
+create_dummy_files	utils/check_dummies.py	/^def create_dummy_files():$/;"	f
+create_dummy_object	utils/check_dummies.py	/^def create_dummy_object(name, backend_name):$/;"	f
+create_dynamic_module	src/diffusers/dynamic_modules_utils.py	/^def create_dynamic_module(name: Union[str, os.PathLike]):$/;"	f
+create_model_card	src/diffusers/hub_utils.py	/^def create_model_card(args, model_name):$/;"	f
+custom_forward	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^                    def custom_forward(*inputs):$/;"	f	function:LDMBertEncoder.forward.create_custom_forward	file:
+decode	src/diffusers/models/vae.py	/^    def decode(self, h, force_not_quantize=False):$/;"	m	class:VQModel
+decode	src/diffusers/models/vae.py	/^    def decode(self, z):$/;"	m	class:AutoencoderKL
+default	src/diffusers/models/attention.py	/^def default(val, d):$/;"	f
+default_cache_path	src/diffusers/utils/__init__.py	/^default_cache_path = os.path.join(hf_cache_home, "diffusers")$/;"	v
+dep_version_check	src/diffusers/dependency_versions_check.py	/^def dep_version_check(pkg, hint=None):$/;"	f
+deps	setup.py	/^deps = {b: a for a, b in (re.findall(r"^(([^!=<>~]+)(?:[!=<>~].*)?$)", x)[0] for x in _deps)}$/;"	v
+deps	src/diffusers/dependency_versions_table.py	/^deps = {$/;"	v
+deps_list	setup.py	/^def deps_list(*pkgs):$/;"	f
+deps_table_check_updated	Makefile	/^deps_table_check_updated:$/;"	t
+deps_table_update	Makefile	/^deps_table_update:$/;"	t
+description	setup.py	/^    description = "build runtime dependency table"$/;"	v	class:DepsTableUpdateCommand
+device	src/diffusers/modeling_utils.py	/^    def device(self) -> device:$/;"	m	class:ModelMixin	typeref:typename:device
+device	src/diffusers/pipeline_utils.py	/^    def device(self) -> torch.device:$/;"	m	class:DiffusionPipeline	typeref:typename:torch.device
+diffusers	utils/check_repo.py	/^diffusers = spec.loader.load_module()$/;"	v
+diffusers_module	utils/check_table.py	/^diffusers_module = spec.loader.load_module()$/;"	v
+disable_default_handler	src/diffusers/utils/logging.py	/^def disable_default_handler() -> None:$/;"	f	typeref:typename:None
+disable_progress_bar	src/diffusers/utils/logging.py	/^def disable_progress_bar():$/;"	f
+disable_propagation	src/diffusers/utils/logging.py	/^def disable_propagation() -> None:$/;"	f	typeref:typename:None
+do_only_config	scripts/change_naming_configs_and_checkpoints.py	/^do_only_config = False$/;"	v
+do_only_renaming	scripts/change_naming_configs_and_checkpoints.py	/^do_only_renaming = False$/;"	v
+do_only_weights	scripts/change_naming_configs_and_checkpoints.py	/^do_only_weights = True$/;"	v
+downsample_2d	src/diffusers/models/resnet.py	/^def downsample_2d(x, k=None, factor=2, gain=1):$/;"	f
+dtype	src/diffusers/modeling_utils.py	/^    def dtype(self) -> torch.dtype:$/;"	m	class:ModelMixin	typeref:typename:torch.dtype
+dummy_input	tests/test_modeling_utils.py	/^    def dummy_input(self):$/;"	m	class:AutoencoderKLTests
+dummy_input	tests/test_modeling_utils.py	/^    def dummy_input(self):$/;"	m	class:UNetLDMModelTests
+dummy_input	tests/test_modeling_utils.py	/^    def dummy_input(self):$/;"	m	class:UnetModelTests
+dummy_input	tests/test_modeling_utils.py	/^    def dummy_input(self, sizes=(32, 32)):$/;"	m	class:NCSNppModelTests
+dummy_input	tests/test_modeling_utils.py	/^    def dummy_input(self, sizes=(32, 32)):$/;"	m	class:VQModelTests
+dummy_inputs	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def dummy_inputs(self):$/;"	m	class:LDMBertPreTrainedModel
+dummy_model	tests/test_scheduler.py	/^    def dummy_model(self):$/;"	m	class:SchedulerCommonTest
+dummy_model	tests/test_scheduler.py	/^    def dummy_model(self):$/;"	m	class:ScoreSdeVeSchedulerTest
+dummy_sample	tests/test_scheduler.py	/^    def dummy_sample(self):$/;"	m	class:SchedulerCommonTest
+dummy_sample	tests/test_scheduler.py	/^    def dummy_sample(self):$/;"	m	class:ScoreSdeVeSchedulerTest
+dummy_sample_deter	tests/test_scheduler.py	/^    def dummy_sample_deter(self):$/;"	m	class:SchedulerCommonTest
+dummy_sample_deter	tests/test_scheduler.py	/^    def dummy_sample_deter(self):$/;"	m	class:ScoreSdeVeSchedulerTest
+empty_fn	src/diffusers/utils/logging.py	/^        def empty_fn(*args, **kwargs):  # pylint: disable=unused-argument$/;"	f	member:EmptyTqdm.__getattr__	file:
+enable_default_handler	src/diffusers/utils/logging.py	/^def enable_default_handler() -> None:$/;"	f	typeref:typename:None
+enable_explicit_format	src/diffusers/utils/logging.py	/^def enable_explicit_format() -> None:$/;"	f	typeref:typename:None
+enable_full_determinism	src/diffusers/training_utils.py	/^def enable_full_determinism(seed: int):$/;"	f
+enable_progress_bar	src/diffusers/utils/logging.py	/^def enable_progress_bar():$/;"	f
+enable_propagation	src/diffusers/utils/logging.py	/^def enable_propagation() -> None:$/;"	f	typeref:typename:None
+encode	src/diffusers/models/vae.py	/^    def encode(self, x):$/;"	m	class:AutoencoderKL
+encode	src/diffusers/models/vae.py	/^    def encode(self, x):$/;"	m	class:VQModel
+env_local_rank	examples/train_unconditional.py	/^    env_local_rank = int(os.environ.get("LOCAL_RANK", -1))$/;"	v
+exists	src/diffusers/models/attention.py	/^def exists(val):$/;"	f
+extra_style_checks	Makefile	/^extra_style_checks:$/;"	t
+extract_init_dict	src/diffusers/configuration_utils.py	/^    def extract_init_dict(cls, config_dict, **kwargs):$/;"	m	class:ConfigMixin
+extras	setup.py	/^extras = {}$/;"	v
+finalize_options	setup.py	/^    def finalize_options(self):$/;"	m	class:DepsTableUpdateCommand
+find_all_documented_objects	utils/check_repo.py	/^def find_all_documented_objects():$/;"	f
+find_backend	utils/check_dummies.py	/^def find_backend(line):$/;"	f
+find_backend	utils/check_inits.py	/^def find_backend(line):$/;"	f
+find_code_in_diffusers	utils/check_copies.py	/^def find_code_in_diffusers(object_name):$/;"	f
+find_duplicates	utils/check_inits.py	/^    def find_duplicates(seq):$/;"	f	function:analyze_results	file:
+find_tensor_attributes	src/diffusers/modeling_utils.py	/^        def find_tensor_attributes(module: torch.nn.Module) -> List[Tuple[str, Tensor]]:$/;"	f	function:get_parameter_device	typeref:typename:List[Tuple[str,Tensor]]	file:
+find_tensor_attributes	src/diffusers/modeling_utils.py	/^        def find_tensor_attributes(module: torch.nn.Module) -> List[Tuple[str, Tensor]]:$/;"	f	function:get_parameter_dtype	typeref:typename:List[Tuple[str,Tensor]]	file:
+find_tested_models	utils/check_repo.py	/^def find_tested_models(test_file):$/;"	f
+fix-copies	Makefile	/^fix-copies:$/;"	t
+fixup	Makefile	/^fixup: modified_only_fixup extra_style_checks autogenerate_code repo-consistency$/;"	t
+floats_tensor	src/diffusers/testing_utils.py	/^def floats_tensor(shape, scale=1.0, rng=None, name=None):$/;"	f
+forward	src/diffusers/models/attention.py	/^    def forward(self, hidden_states):$/;"	m	class:AttentionBlockNew
+forward	src/diffusers/models/attention.py	/^    def forward(self, x):$/;"	m	class:FeedForward
+forward	src/diffusers/models/attention.py	/^    def forward(self, x):$/;"	m	class:GEGLU
+forward	src/diffusers/models/attention.py	/^    def forward(self, x, context=None):$/;"	m	class:BasicTransformerBlock
+forward	src/diffusers/models/attention.py	/^    def forward(self, x, context=None):$/;"	m	class:SpatialTransformer
+forward	src/diffusers/models/attention.py	/^    def forward(self, x, context=None, mask=None):$/;"	m	class:CrossAttention
+forward	src/diffusers/models/attention.py	/^    def forward(self, x, encoder_out=None):$/;"	m	class:AttentionBlock
+forward	src/diffusers/models/embeddings.py	/^    def forward(self, sample):$/;"	m	class:TimestepEmbedding
+forward	src/diffusers/models/embeddings.py	/^    def forward(self, timesteps):$/;"	m	class:Timesteps
+forward	src/diffusers/models/embeddings.py	/^    def forward(self, x):$/;"	m	class:GaussianFourierProjection
+forward	src/diffusers/models/resnet.py	/^    def forward(self, tensor):$/;"	m	class:RearrangeDim
+forward	src/diffusers/models/resnet.py	/^    def forward(self, x):$/;"	m	class:Conv1dBlock
+forward	src/diffusers/models/resnet.py	/^    def forward(self, x):$/;"	m	class:Downsample2D
+forward	src/diffusers/models/resnet.py	/^    def forward(self, x):$/;"	m	class:FirDownsample2D
+forward	src/diffusers/models/resnet.py	/^    def forward(self, x):$/;"	m	class:FirUpsample2D
+forward	src/diffusers/models/resnet.py	/^    def forward(self, x):$/;"	m	class:GroupNorm32
+forward	src/diffusers/models/resnet.py	/^    def forward(self, x):$/;"	m	class:Mish
+forward	src/diffusers/models/resnet.py	/^    def forward(self, x):$/;"	m	class:Upsample2D
+forward	src/diffusers/models/resnet.py	/^    def forward(self, x, temb, hey=False):$/;"	m	class:ResnetBlock
+forward	src/diffusers/models/resnet.py	/^    def forward(self, x, temb, hey=False, mask=1.0):$/;"	m	class:ResnetBlock2D
+forward	src/diffusers/models/unet_2d.py	/^    def forward($/;"	m	class:UNet2DModel	typeref:typename:Dict[str,torch.FloatTensor]
+forward	src/diffusers/models/unet_2d_condition.py	/^    def forward($/;"	m	class:UNet2DConditionModel	typeref:typename:Dict[str,torch.FloatTensor]
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states):$/;"	m	class:AttnDownEncoderBlock2D
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states):$/;"	m	class:AttnUpDecoderBlock2D
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states):$/;"	m	class:DownEncoderBlock2D
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states):$/;"	m	class:UpDecoderBlock2D
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states, res_hidden_states_tuple, temb=None):$/;"	m	class:AttnUpBlock2D
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states, res_hidden_states_tuple, temb=None):$/;"	m	class:UpBlock2D
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states, res_hidden_states_tuple, temb=None, encoder_hidden_states=N/;"	m	class:CrossAttnUpBlock2D
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states, res_hidden_states_tuple, temb=None, skip_sample=None):$/;"	m	class:AttnSkipUpBlock2D
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states, res_hidden_states_tuple, temb=None, skip_sample=None):$/;"	m	class:SkipUpBlock2D
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states, temb=None):$/;"	m	class:AttnDownBlock2D
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states, temb=None):$/;"	m	class:DownBlock2D
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states, temb=None, encoder_hidden_states=None):$/;"	m	class:CrossAttnDownBlock2D
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states, temb=None, encoder_hidden_states=None):$/;"	m	class:UNetMidBlock2DCrossAttn
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states, temb=None, encoder_states=None):$/;"	m	class:UNetMidBlock2D
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states, temb=None, skip_sample=None):$/;"	m	class:AttnSkipDownBlock2D
+forward	src/diffusers/models/unet_blocks.py	/^    def forward(self, hidden_states, temb=None, skip_sample=None):$/;"	m	class:SkipDownBlock2D
+forward	src/diffusers/models/vae.py	/^    def forward(self, sample):$/;"	m	class:VQModel
+forward	src/diffusers/models/vae.py	/^    def forward(self, sample, sample_posterior=False):$/;"	m	class:AutoencoderKL
+forward	src/diffusers/models/vae.py	/^    def forward(self, x):$/;"	m	class:Encoder
+forward	src/diffusers/models/vae.py	/^    def forward(self, z):$/;"	m	class:Decoder
+forward	src/diffusers/models/vae.py	/^    def forward(self, z):$/;"	m	class:VectorQuantizer
+forward	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def forward($/;"	m	class:LDMBertAttention	typeref:typename:Tuple[torch.Tensor,Optional[torch.Tensor],Optional[Tuple[torch.Tensor]]]
+forward	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def forward($/;"	m	class:LDMBertEncoder	typeref:typename:Union[Tuple,BaseModelOutput]
+forward	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def forward($/;"	m	class:LDMBertEncoderLayer	typeref:typename:Tuple[torch.FloatTensor,Optional[torch.FloatTensor]]
+forward	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def forward($/;"	m	class:LDMBertModel
+forward	src/diffusers/pipelines/stable_diffusion/safety_checker.py	/^    def forward(self, clip_input, images):$/;"	m	class:StableDiffusionSafetyChecker
+forward_default_kwargs	tests/test_scheduler.py	/^    forward_default_kwargs = (("eta", 0.0), ("num_inference_steps", 50))$/;"	v	class:DDIMSchedulerTest
+forward_default_kwargs	tests/test_scheduler.py	/^    forward_default_kwargs = (("num_inference_steps", 50),)$/;"	v	class:PNDMSchedulerTest
+forward_default_kwargs	tests/test_scheduler.py	/^    forward_default_kwargs = (("seed", 0),)$/;"	v	class:ScoreSdeVeSchedulerTest
+forward_default_kwargs	tests/test_scheduler.py	/^    forward_default_kwargs = ()$/;"	v	class:SchedulerCommonTest
+from_config	src/diffusers/configuration_utils.py	/^    def from_config(cls, pretrained_model_name_or_path: Union[str, os.PathLike], return_unused_k/;"	m	class:ConfigMixin
+from_pretrained	src/diffusers/modeling_utils.py	/^    def from_pretrained(cls, pretrained_model_name_or_path: Optional[Union[str, os.PathLike]], */;"	m	class:ModelMixin
+from_pretrained	src/diffusers/pipeline_utils.py	/^    def from_pretrained(cls, pretrained_model_name_or_path: Optional[Union[str, os.PathLike]], */;"	m	class:DiffusionPipeline
+get_adjacent_sigma	src/diffusers/schedulers/scheduling_sde_ve.py	/^    def get_adjacent_sigma(self, timesteps, t):$/;"	m	class:ScoreSdeVeScheduler
+get_all_auto_configured_models	utils/check_repo.py	/^def get_all_auto_configured_models():$/;"	f
+get_cached_module_file	src/diffusers/dynamic_modules_utils.py	/^def get_cached_module_file($/;"	f
+get_class_from_dynamic_module	src/diffusers/dynamic_modules_utils.py	/^def get_class_from_dynamic_module($/;"	f
+get_class_in_module	src/diffusers/dynamic_modules_utils.py	/^def get_class_in_module(class_name, module_path):$/;"	f
+get_codebook_entry	src/diffusers/models/vae.py	/^    def get_codebook_entry(self, indices, shape):$/;"	m	class:VectorQuantizer
+get_config_dict	src/diffusers/configuration_utils.py	/^    def get_config_dict($/;"	m	class:ConfigMixin	typeref:typename:Tuple[Dict[str,Any],Dict[str,Any]]
+get_constant_schedule	src/diffusers/optimization.py	/^def get_constant_schedule(optimizer: Optimizer, last_epoch: int = -1):$/;"	f
+get_constant_schedule_with_warmup	src/diffusers/optimization.py	/^def get_constant_schedule_with_warmup(optimizer: Optimizer, num_warmup_steps: int, last_epoch: i/;"	f
+get_cosine_schedule_with_warmup	src/diffusers/optimization.py	/^def get_cosine_schedule_with_warmup($/;"	f
+get_cosine_with_hard_restarts_schedule_with_warmup	src/diffusers/optimization.py	/^def get_cosine_with_hard_restarts_schedule_with_warmup($/;"	f
+get_decay	src/diffusers/training_utils.py	/^    def get_decay(self, optimization_step):$/;"	m	class:EMAModel
+get_down_block	src/diffusers/models/unet_blocks.py	/^def get_down_block($/;"	f
+get_full_repo_name	src/diffusers/hub_utils.py	/^def get_full_repo_name(model_id: str, organization: Optional[str] = None, token: Optional[str] =/;"	f
+get_indent	utils/check_copies.py	/^def get_indent(code):$/;"	f
+get_indent	utils/custom_init_isort.py	/^def get_indent(line):$/;"	f
+get_input_embeddings	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def get_input_embeddings(self):$/;"	m	class:LDMBertEncoder
+get_linear_schedule_with_warmup	src/diffusers/optimization.py	/^def get_linear_schedule_with_warmup(optimizer, num_warmup_steps, num_training_steps, last_epoch=/;"	f
+get_lms_coefficient	src/diffusers/schedulers/scheduling_lms_discrete.py	/^    def get_lms_coefficient(self, order, t, current_order):$/;"	m	class:LMSDiscreteScheduler
+get_lock	src/diffusers/utils/logging.py	/^    def get_lock(self):$/;"	m	class:_tqdm_cls
+get_log_levels_dict	src/diffusers/utils/logging.py	/^def get_log_levels_dict():$/;"	f
+get_logger	src/diffusers/utils/logging.py	/^def get_logger(name: Optional[str] = None) -> logging.Logger:$/;"	f	typeref:typename:logging.Logger
+get_model_list	utils/check_copies.py	/^def get_model_list(filename, start_prompt, end_prompt):$/;"	f
+get_model_modules	utils/check_repo.py	/^def get_model_modules():$/;"	f
+get_model_optimizer	tests/test_training.py	/^    def get_model_optimizer(self, resolution=32):$/;"	m	class:TrainingTests
+get_model_table_from_auto_modules	utils/check_table.py	/^def get_model_table_from_auto_modules():$/;"	f
+get_model_test_files	utils/check_repo.py	/^def get_model_test_files():$/;"	f
+get_models	utils/check_repo.py	/^def get_models(module, include_pretrained=False):$/;"	f
+get_parameter_device	src/diffusers/modeling_utils.py	/^def get_parameter_device(parameter: torch.nn.Module):$/;"	f
+get_parameter_dtype	src/diffusers/modeling_utils.py	/^def get_parameter_dtype(parameter: torch.nn.Module):$/;"	f
+get_polynomial_decay_schedule_with_warmup	src/diffusers/optimization.py	/^def get_polynomial_decay_schedule_with_warmup($/;"	f
+get_relative_import_files	src/diffusers/dynamic_modules_utils.py	/^def get_relative_import_files(module_file):$/;"	f
+get_relative_imports	src/diffusers/dynamic_modules_utils.py	/^def get_relative_imports(module_file):$/;"	f
+get_scheduler	src/diffusers/optimization.py	/^def get_scheduler($/;"	f
+get_scheduler_config	tests/test_scheduler.py	/^    def get_scheduler_config(self):$/;"	m	class:SchedulerCommonTest
+get_scheduler_config	tests/test_scheduler.py	/^    def get_scheduler_config(self, **kwargs):$/;"	m	class:DDIMSchedulerTest
+get_scheduler_config	tests/test_scheduler.py	/^    def get_scheduler_config(self, **kwargs):$/;"	m	class:DDPMSchedulerTest
+get_scheduler_config	tests/test_scheduler.py	/^    def get_scheduler_config(self, **kwargs):$/;"	m	class:PNDMSchedulerTest
+get_scheduler_config	tests/test_scheduler.py	/^    def get_scheduler_config(self, **kwargs):$/;"	m	class:ScoreSdeVeSchedulerTest
+get_timestep_embedding	src/diffusers/models/embeddings.py	/^def get_timestep_embedding($/;"	f
+get_transformers_submodules	utils/check_inits.py	/^def get_transformers_submodules():$/;"	f
+get_up_block	src/diffusers/models/unet_blocks.py	/^def get_up_block($/;"	f
+get_verbosity	src/diffusers/utils/logging.py	/^def get_verbosity() -> int:$/;"	f	typeref:typename:int
+global_rng	src/diffusers/testing_utils.py	/^global_rng = random.Random()$/;"	v
+has_changed	scripts/change_naming_configs_and_checkpoints.py	/^                    has_changed = True$/;"	v
+has_changed	scripts/change_naming_configs_and_checkpoints.py	/^            has_changed = False$/;"	v
+hf_cache_home	src/diffusers/utils/__init__.py	/^hf_cache_home = os.path.expanduser($/;"	v
+ignore_for_config	src/diffusers/configuration_utils.py	/^    ignore_for_config = []$/;"	v	class:ConfigMixin
+ignore_for_config	src/diffusers/schedulers/scheduling_utils.py	/^    ignore_for_config = ["tensor_format"]$/;"	v	class:SchedulerMixin
+ignore_unautoclassed	utils/check_repo.py	/^def ignore_unautoclassed(model_name):$/;"	f
+ignore_underscore	utils/custom_init_isort.py	/^def ignore_underscore(key):$/;"	f
+ignore_undocumented	utils/check_repo.py	/^def ignore_undocumented(name):$/;"	f
+importlib_metadata	src/diffusers/utils/import_utils.py	/^    import importlib.metadata as importlib_metadata$/;"	I	nameref:module:importlib.metadata
+init_git_repo	src/diffusers/hub_utils.py	/^def init_git_repo(args, at_init: bool = False):$/;"	f
+init_hf_modules	src/diffusers/dynamic_modules_utils.py	/^def init_hf_modules():$/;"	f
+initialize_options	setup.py	/^    def initialize_options(self):$/;"	m	class:DepsTableUpdateCommand
+inner_init	src/diffusers/configuration_utils.py	/^    def inner_init(self, *args, **kwargs):$/;"	f	function:register_to_config	file:
+input_shape	tests/test_modeling_utils.py	/^    def input_shape(self):$/;"	m	class:AutoencoderKLTests
+input_shape	tests/test_modeling_utils.py	/^    def input_shape(self):$/;"	m	class:NCSNppModelTests
+input_shape	tests/test_modeling_utils.py	/^    def input_shape(self):$/;"	m	class:UNetLDMModelTests
+input_shape	tests/test_modeling_utils.py	/^    def input_shape(self):$/;"	m	class:UnetModelTests
+input_shape	tests/test_modeling_utils.py	/^    def input_shape(self):$/;"	m	class:VQModelTests
+install_requires	setup.py	/^install_requires = [$/;"	v
+is_a_private_model	utils/check_repo.py	/^def is_a_private_model(model):$/;"	f
+is_copy_consistent	utils/check_copies.py	/^def is_copy_consistent(filename, overwrite=False):$/;"	f
+is_flax_available	src/diffusers/utils/import_utils.py	/^def is_flax_available():$/;"	f
+is_inflect_available	src/diffusers/utils/import_utils.py	/^def is_inflect_available():$/;"	f
+is_modelcards_available	src/diffusers/utils/import_utils.py	/^def is_modelcards_available():$/;"	f
+is_progress_bar_enabled	src/diffusers/utils/logging.py	/^def is_progress_bar_enabled() -> bool:$/;"	f	typeref:typename:bool
+is_rst_docstring	utils/check_repo.py	/^def is_rst_docstring(docstring):$/;"	f
+is_scipy_available	src/diffusers/utils/import_utils.py	/^def is_scipy_available():$/;"	f
+is_tf_available	src/diffusers/utils/import_utils.py	/^def is_tf_available():$/;"	f
+is_torch_available	src/diffusers/utils/import_utils.py	/^def is_torch_available():$/;"	f
+is_transformers_available	src/diffusers/utils/import_utils.py	/^def is_transformers_available():$/;"	f
+is_unidecode_available	src/diffusers/utils/import_utils.py	/^def is_unidecode_available():$/;"	f
+key_parameters_to_change	scripts/change_naming_configs_and_checkpoints.py	/^    key_parameters_to_change = {$/;"	v
+key_prefix_set	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^    key_prefix_set = set(key.split(".")[0] for key in checkpoint.keys())$/;"	v
+keys_to_ignore_at_inference	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    keys_to_ignore_at_inference = ["past_key_values"]$/;"	v	class:LDMBertConfig
+kl	src/diffusers/models/vae.py	/^    def kl(self, other=None):$/;"	m	class:DiagonalGaussianDistribution
+linear	src/diffusers/models/resnet.py	/^def linear(*args, **kwargs):$/;"	f
+lms_derivative	src/diffusers/schedulers/scheduling_lms_discrete.py	/^        def lms_derivative(tau):$/;"	f	member:LMSDiscreteScheduler.get_lms_coefficient	file:
+load	src/diffusers/modeling_utils.py	/^    def load(module: torch.nn.Module, prefix=""):$/;"	f	function:_load_state_dict_into_model	file:
+load_state_dict	src/diffusers/modeling_utils.py	/^def load_state_dict(checkpoint_file: Union[str, os.PathLike]):$/;"	f
+local_checkpoint	scripts/generate_logits.py	/^        local_checkpoint = "\/home\/patrick\/google_checkpoints\/" + mod.modelId.split("\/")[-1]$/;"	v
+log	src/diffusers/schedulers/scheduling_utils.py	/^    def log(self, tensor):$/;"	m	class:SchedulerMixin
+log_levels	src/diffusers/utils/logging.py	/^log_levels = {$/;"	v
+logger	examples/train_unconditional.py	/^logger = get_logger(__name__)$/;"	v
+logger	src/diffusers/configuration_utils.py	/^logger = logging.get_logger(__name__)$/;"	v
+logger	src/diffusers/dynamic_modules_utils.py	/^logger = logging.get_logger(__name__)  # pylint: disable=invalid-name$/;"	v
+logger	src/diffusers/hub_utils.py	/^logger = logging.get_logger(__name__)$/;"	v
+logger	src/diffusers/modeling_utils.py	/^logger = logging.get_logger(__name__)$/;"	v
+logger	src/diffusers/optimization.py	/^logger = logging.get_logger(__name__)$/;"	v
+logger	src/diffusers/pipeline_utils.py	/^logger = logging.get_logger(__name__)$/;"	v
+logger	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^logger = logging.get_logger(__name__)$/;"	v
+logger	src/diffusers/pipelines/stable_diffusion/safety_checker.py	/^logger = logging.get_logger(__name__)$/;"	v
+logger	src/diffusers/utils/__init__.py	/^logger = get_logger(__name__)$/;"	v
+logger	src/diffusers/utils/import_utils.py	/^logger = logging.get_logger(__name__)  # pylint: disable=invalid-name$/;"	v
+logits	scripts/generate_logits.py	/^            logits = model(noise, time_step)['sample']$/;"	v
+lr_lambda	src/diffusers/optimization.py	/^    def lr_lambda(current_step):$/;"	f	function:get_cosine_schedule_with_warmup	file:
+lr_lambda	src/diffusers/optimization.py	/^    def lr_lambda(current_step):$/;"	f	function:get_cosine_with_hard_restarts_schedule_with_warmup	file:
+lr_lambda	src/diffusers/optimization.py	/^    def lr_lambda(current_step: int):$/;"	f	function:get_constant_schedule_with_warmup	file:
+lr_lambda	src/diffusers/optimization.py	/^    def lr_lambda(current_step: int):$/;"	f	function:get_linear_schedule_with_warmup	file:
+lr_lambda	src/diffusers/optimization.py	/^    def lr_lambda(current_step: int):$/;"	f	function:get_polynomial_decay_schedule_with_warmup	file:
+main	examples/train_unconditional.py	/^def main(args):$/;"	f
+match_shape	src/diffusers/schedulers/scheduling_utils.py	/^    def match_shape(self, values: Union[np.ndarray, torch.Tensor], broadcast_array: Union[np.nda/;"	m	class:SchedulerMixin
+mode	src/diffusers/models/vae.py	/^    def mode(self):$/;"	m	class:DiagonalGaussianDistribution
+model	scripts/change_naming_configs_and_checkpoints.py	/^        model = UNet2DModel(**config)$/;"	v
+model	scripts/change_naming_configs_and_checkpoints.py	/^        model = class_name(**config)$/;"	v
+model	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^        model = AutoencoderKL(**config)$/;"	v
+model	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^        model = VQModel(**config)$/;"	v
+model	scripts/convert_ldm_original_checkpoint_to_diffusers.py	/^    model = UNet2DModel(**config)$/;"	v
+model	scripts/convert_ncsnpp_original_checkpoint_to_diffusers.py	/^    model = UNet2DModel(**config)$/;"	v
+model	scripts/generate_logits.py	/^            model = UNet2DModel.from_pretrained(local_checkpoint, subfolder = "unet")$/;"	v
+model	tests/test_scheduler.py	/^        def model(sample, t, *args):$/;"	f	member:SchedulerCommonTest.dummy_model	file:
+model	tests/test_scheduler.py	/^        def model(sample, t, *args):$/;"	f	member:ScoreSdeVeSchedulerTest.dummy_model	file:
+model_class	tests/test_modeling_utils.py	/^    model_class = AutoencoderKL$/;"	v	class:AutoencoderKLTests
+model_class	tests/test_modeling_utils.py	/^    model_class = UNet2DModel$/;"	v	class:NCSNppModelTests
+model_class	tests/test_modeling_utils.py	/^    model_class = UNet2DModel$/;"	v	class:UNetLDMModelTests
+model_class	tests/test_modeling_utils.py	/^    model_class = UNet2DModel$/;"	v	class:UnetModelTests
+model_class	tests/test_modeling_utils.py	/^    model_class = VQModel$/;"	v	class:VQModelTests
+model_type	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    model_type = "ldmbert"$/;"	v	class:LDMBertConfig
+models	scripts/generate_logits.py	/^models = api.list_models(filter="diffusers")$/;"	v
+modified_only_fixup	Makefile	/^modified_only_fixup:$/;"	t
+new_state_dict	scripts/change_naming_configs_and_checkpoints.py	/^        new_state_dict = {}$/;"	v
+nll	src/diffusers/models/vae.py	/^    def nll(self, sample, dims=[1, 2, 3]):$/;"	m	class:DiagonalGaussianDistribution
+nn	src/diffusers/models/resnet.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	src/diffusers/models/unet_2d.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	src/diffusers/models/unet_2d_condition.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	src/diffusers/models/vae.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	src/diffusers/pipelines/stable_diffusion/safety_checker.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+noise	scripts/generate_logits.py	/^        noise = torch.randn(1, model.config.in_channels, model.config.sample_size, model.config./;"	v
+noop	utils/custom_init_isort.py	/^    def noop(x):$/;"	f	function:sort_objects	file:
+norm	src/diffusers/schedulers/scheduling_utils.py	/^    def norm(self, tensor):$/;"	m	class:SchedulerMixin
+normalization	src/diffusers/models/resnet.py	/^def normalization(channels, swish=0.0):$/;"	f
+np	src/diffusers/models/embeddings.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	src/diffusers/models/resnet.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	src/diffusers/models/unet_blocks.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	src/diffusers/models/vae.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	src/diffusers/pipelines/stable_diffusion/safety_checker.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	src/diffusers/schedulers/scheduling_ddim.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	src/diffusers/schedulers/scheduling_ddpm.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	src/diffusers/schedulers/scheduling_karras_ve.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	src/diffusers/schedulers/scheduling_lms_discrete.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	src/diffusers/schedulers/scheduling_pndm.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	src/diffusers/schedulers/scheduling_sde_ve.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	src/diffusers/schedulers/scheduling_sde_vp.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	src/diffusers/schedulers/scheduling_utils.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	src/diffusers/training_utils.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	tests/test_layers_utils.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	tests/test_modeling_utils.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	tests/test_scheduler.py	/^import numpy as np$/;"	I	nameref:module:numpy
+num_parameters	src/diffusers/modeling_utils.py	/^    def num_parameters(self, only_trainable: bool = False, exclude_embeddings: bool = False) -> /;"	m	class:ModelMixin	typeref:typename:int
+numpy_to_pil	src/diffusers/pipeline_utils.py	/^    def numpy_to_pil(images):$/;"	m	class:DiffusionPipeline
+onnx_compliancy	utils/check_tf_ops.py	/^def onnx_compliancy(saved_model_path, strict, opset):$/;"	f
+output_shape	tests/test_modeling_utils.py	/^    def output_shape(self):$/;"	m	class:AutoencoderKLTests
+output_shape	tests/test_modeling_utils.py	/^    def output_shape(self):$/;"	m	class:NCSNppModelTests
+output_shape	tests/test_modeling_utils.py	/^    def output_shape(self):$/;"	m	class:UNetLDMModelTests
+output_shape	tests/test_modeling_utils.py	/^    def output_shape(self):$/;"	m	class:UnetModelTests
+output_shape	tests/test_modeling_utils.py	/^    def output_shape(self):$/;"	m	class:VQModelTests
+parse_flag_from_env	src/diffusers/testing_utils.py	/^def parse_flag_from_env(key, default=False):$/;"	f
+parse_init	utils/check_inits.py	/^def parse_init(init_file):$/;"	f
+parser	examples/train_unconditional.py	/^    parser = argparse.ArgumentParser(description="Simple example of a training script.")$/;"	v
+parser	scripts/change_naming_configs_and_checkpoints.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	scripts/conversion_ldm_uncond.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	scripts/convert_ldm_original_checkpoint_to_diffusers.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	scripts/convert_ncsnpp_original_checkpoint_to_diffusers.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	utils/check_copies.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	utils/check_dummies.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	utils/check_table.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	utils/check_tf_ops.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	utils/custom_init_isort.py	/^    parser = argparse.ArgumentParser()$/;"	v
+pipe	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^        pipe = DDPMPipeline(unet=model, scheduler=scheduler)$/;"	v
+pipe	scripts/convert_ldm_original_checkpoint_to_diffusers.py	/^        pipe = LDMPipeline(unet=model, scheduler=scheduler, vae=vqvae)$/;"	v
+pipe	scripts/convert_ncsnpp_original_checkpoint_to_diffusers.py	/^        pipe = ScoreSdeVePipeline(unet=model, scheduler=scheduler)$/;"	v
+pkgs_to_check_at_runtime	src/diffusers/dependency_versions_check.py	/^pkgs_to_check_at_runtime = "python tqdm regex requests packaging filelock numpy tokenizers".spli/;"	v
+pop	src/diffusers/configuration_utils.py	/^    def pop(self, *args, **kwargs):$/;"	m	class:FrozenDict
+post-patch	Makefile	/^post-patch:$/;"	t
+post-release	Makefile	/^post-release:$/;"	t
+pre-patch	Makefile	/^pre-patch:$/;"	t
+pre-release	Makefile	/^pre-release:$/;"	t
+prepare_init_args_and_inputs_for_common	tests/test_modeling_utils.py	/^    def prepare_init_args_and_inputs_for_common(self):$/;"	m	class:AutoencoderKLTests
+prepare_init_args_and_inputs_for_common	tests/test_modeling_utils.py	/^    def prepare_init_args_and_inputs_for_common(self):$/;"	m	class:NCSNppModelTests
+prepare_init_args_and_inputs_for_common	tests/test_modeling_utils.py	/^    def prepare_init_args_and_inputs_for_common(self):$/;"	m	class:UNetLDMModelTests
+prepare_init_args_and_inputs_for_common	tests/test_modeling_utils.py	/^    def prepare_init_args_and_inputs_for_common(self):$/;"	m	class:UnetModelTests
+prepare_init_args_and_inputs_for_common	tests/test_modeling_utils.py	/^    def prepare_init_args_and_inputs_for_common(self):$/;"	m	class:VQModelTests
+push_to_hub	src/diffusers/hub_utils.py	/^def push_to_hub($/;"	f	typeref:typename:str
+quality	Makefile	/^quality:$/;"	t
+randn_like	src/diffusers/schedulers/scheduling_utils.py	/^    def randn_like(self, tensor, generator=None):$/;"	m	class:SchedulerMixin
+read_init	utils/check_dummies.py	/^def read_init():$/;"	f
+register_modules	src/diffusers/pipeline_utils.py	/^    def register_modules(self, **kwargs):$/;"	m	class:DiffusionPipeline
+register_to_config	src/diffusers/configuration_utils.py	/^    def register_to_config(self, **kwargs):$/;"	m	class:ConfigMixin
+register_to_config	src/diffusers/configuration_utils.py	/^def register_to_config(init):$/;"	f
+remap_to_used	src/diffusers/models/vae.py	/^    def remap_to_used(self, inds):$/;"	m	class:VectorQuantizer
+remove_handler	src/diffusers/utils/logging.py	/^def remove_handler(handler: logging.Handler) -> None:$/;"	f	typeref:typename:None
+renew_attention_paths	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^def renew_attention_paths(old_list, n_shave_prefix_segments=0, in_mid=False):$/;"	f
+renew_attention_paths	scripts/convert_ldm_original_checkpoint_to_diffusers.py	/^def renew_attention_paths(old_list, n_shave_prefix_segments=0):$/;"	f
+renew_resnet_paths	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^def renew_resnet_paths(old_list, n_shave_prefix_segments=0):$/;"	f
+renew_resnet_paths	scripts/convert_ldm_original_checkpoint_to_diffusers.py	/^def renew_resnet_paths(old_list, n_shave_prefix_segments=0):$/;"	f
+repo-consistency	Makefile	/^repo-consistency:$/;"	t
+requires_backends	src/diffusers/utils/import_utils.py	/^def requires_backends(obj, backends):$/;"	f
+reset_format	src/diffusers/utils/logging.py	/^def reset_format() -> None:$/;"	f	typeref:typename:None
+reshape_batch_dim_to_heads	src/diffusers/models/attention.py	/^    def reshape_batch_dim_to_heads(self, tensor):$/;"	m	class:CrossAttention
+reshape_heads_to_batch_dim	src/diffusers/models/attention.py	/^    def reshape_heads_to_batch_dim(self, tensor):$/;"	m	class:CrossAttention
+results	scripts/generate_logits.py	/^results = {}$/;"	v
+run	setup.py	/^    def run(self):$/;"	m	class:DepsTableUpdateCommand
+sample	src/diffusers/models/vae.py	/^    def sample(self):$/;"	m	class:DiagonalGaussianDistribution
+save_config	src/diffusers/configuration_utils.py	/^    def save_config(self, save_directory: Union[str, os.PathLike], push_to_hub: bool = False, **/;"	m	class:ConfigMixin
+save_pretrained	src/diffusers/modeling_utils.py	/^    def save_pretrained($/;"	m	class:ModelMixin
+save_pretrained	src/diffusers/pipeline_utils.py	/^    def save_pretrained(self, save_directory: Union[str, os.PathLike]):$/;"	m	class:DiffusionPipeline
+scheduler	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^        scheduler = DDPMScheduler.from_config("\/".join(args.checkpoint_path.split("\/")[:-1]))$/;"	v
+scheduler_classes	tests/test_scheduler.py	/^    scheduler_classes = ()$/;"	v	class:SchedulerCommonTest
+scheduler_classes	tests/test_scheduler.py	/^    scheduler_classes = (DDIMScheduler,)$/;"	v	class:DDIMSchedulerTest
+scheduler_classes	tests/test_scheduler.py	/^    scheduler_classes = (DDPMScheduler,)$/;"	v	class:DDPMSchedulerTest
+scheduler_classes	tests/test_scheduler.py	/^    scheduler_classes = (PNDMScheduler,)$/;"	v	class:PNDMSchedulerTest
+scheduler_classes	tests/test_scheduler.py	/^    scheduler_classes = (ScoreSdeVeScheduler,)$/;"	v	class:ScoreSdeVeSchedulerTest
+set_attention_weights	scripts/convert_ncsnpp_original_checkpoint_to_diffusers.py	/^    def set_attention_weights(new_layer, old_checkpoint, index):$/;"	f	function:convert_ncsnpp_checkpoint	file:
+set_format	src/diffusers/schedulers/scheduling_utils.py	/^    def set_format(self, tensor_format="pt"):$/;"	m	class:SchedulerMixin
+set_input_embeddings	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    def set_input_embeddings(self, value):$/;"	m	class:LDMBertEncoder
+set_lock	src/diffusers/utils/logging.py	/^    def set_lock(self, *args, **kwargs):$/;"	m	class:_tqdm_cls
+set_resnet_weights	scripts/convert_ncsnpp_original_checkpoint_to_diffusers.py	/^    def set_resnet_weights(new_layer, old_checkpoint, index):$/;"	f	function:convert_ncsnpp_checkpoint	file:
+set_seed	src/diffusers/schedulers/scheduling_sde_ve.py	/^    def set_seed(self, seed):$/;"	m	class:ScoreSdeVeScheduler
+set_seed	src/diffusers/training_utils.py	/^def set_seed(seed: int):$/;"	f
+set_sigmas	src/diffusers/schedulers/scheduling_sde_ve.py	/^    def set_sigmas(self, num_inference_steps, sigma_min=None, sigma_max=None, sampling_eps=None)/;"	m	class:ScoreSdeVeScheduler
+set_timesteps	src/diffusers/schedulers/scheduling_ddim.py	/^    def set_timesteps(self, num_inference_steps, offset=0):$/;"	m	class:DDIMScheduler
+set_timesteps	src/diffusers/schedulers/scheduling_ddpm.py	/^    def set_timesteps(self, num_inference_steps):$/;"	m	class:DDPMScheduler
+set_timesteps	src/diffusers/schedulers/scheduling_karras_ve.py	/^    def set_timesteps(self, num_inference_steps):$/;"	m	class:KarrasVeScheduler
+set_timesteps	src/diffusers/schedulers/scheduling_lms_discrete.py	/^    def set_timesteps(self, num_inference_steps):$/;"	m	class:LMSDiscreteScheduler
+set_timesteps	src/diffusers/schedulers/scheduling_pndm.py	/^    def set_timesteps(self, num_inference_steps, offset=0):$/;"	m	class:PNDMScheduler
+set_timesteps	src/diffusers/schedulers/scheduling_sde_ve.py	/^    def set_timesteps(self, num_inference_steps, sampling_eps=None):$/;"	m	class:ScoreSdeVeScheduler
+set_timesteps	src/diffusers/schedulers/scheduling_sde_vp.py	/^    def set_timesteps(self, num_inference_steps):$/;"	m	class:ScoreSdeVpScheduler
+set_verbosity	src/diffusers/utils/logging.py	/^def set_verbosity(verbosity: int) -> None:$/;"	f	typeref:typename:None
+set_verbosity_debug	src/diffusers/utils/logging.py	/^def set_verbosity_debug():$/;"	f
+set_verbosity_error	src/diffusers/utils/logging.py	/^def set_verbosity_error():$/;"	f
+set_verbosity_info	src/diffusers/utils/logging.py	/^def set_verbosity_info():$/;"	f
+set_verbosity_warning	src/diffusers/utils/logging.py	/^def set_verbosity_warning():$/;"	f
+set_weight	src/diffusers/models/attention.py	/^    def set_weight(self, attn_layer):$/;"	m	class:AttentionBlockNew
+set_weight	src/diffusers/models/attention.py	/^    def set_weight(self, layer):$/;"	m	class:SpatialTransformer
+set_weight	src/diffusers/models/resnet.py	/^    def set_weight(self, resnet):$/;"	m	class:ResnetBlock
+set_weights	src/diffusers/models/attention.py	/^    def set_weights(self, module):$/;"	m	class:AttentionBlock
+set_weights_grad_tts	src/diffusers/models/resnet.py	/^    def set_weights_grad_tts(self):$/;"	m	class:ResnetBlock2D
+set_weights_ldm	src/diffusers/models/resnet.py	/^    def set_weights_ldm(self):$/;"	m	class:ResnetBlock2D
+set_weights_score_vde	src/diffusers/models/resnet.py	/^    def set_weights_score_vde(self):$/;"	m	class:ResnetBlock2D
+setdefault	src/diffusers/configuration_utils.py	/^    def setdefault(self, *args, **kwargs):$/;"	m	class:FrozenDict
+shave_segments	scripts/convert_ddpm_original_checkpoint_to_diffusers.py	/^def shave_segments(path, n_shave_prefix_segments=1):$/;"	f
+shave_segments	scripts/convert_ldm_original_checkpoint_to_diffusers.py	/^def shave_segments(path, n_shave_prefix_segments=1):$/;"	f
+slow	src/diffusers/testing_utils.py	/^def slow(test_case):$/;"	f
+sort_imports	utils/custom_init_isort.py	/^def sort_imports(file, check_only=True):$/;"	f
+sort_imports_in_all_inits	utils/custom_init_isort.py	/^def sort_imports_in_all_inits(check_only=True):$/;"	f
+sort_objects	utils/custom_init_isort.py	/^def sort_objects(objects, key=None):$/;"	f
+sort_objects_in_import	utils/custom_init_isort.py	/^def sort_objects_in_import(import_statement):$/;"	f
+spec	utils/check_config_docstrings.py	/^spec = importlib.util.spec_from_file_location($/;"	v
+spec	utils/check_repo.py	/^spec = importlib.util.spec_from_file_location($/;"	v
+spec	utils/check_table.py	/^spec = importlib.util.spec_from_file_location($/;"	v
+split_code_in_indented_blocks	utils/custom_init_isort.py	/^def split_code_in_indented_blocks(code, indent_level="", start_prompt=None, end_prompt=None):$/;"	f
+state_dict	scripts/change_naming_configs_and_checkpoints.py	/^        state_dict = torch.load(os.path.join(args.repo_path, subfolder, "diffusion_pytorch_model/;"	v
+step	src/diffusers/schedulers/scheduling_ddim.py	/^    def step($/;"	m	class:DDIMScheduler
+step	src/diffusers/schedulers/scheduling_ddpm.py	/^    def step($/;"	m	class:DDPMScheduler
+step	src/diffusers/schedulers/scheduling_karras_ve.py	/^    def step($/;"	m	class:KarrasVeScheduler
+step	src/diffusers/schedulers/scheduling_lms_discrete.py	/^    def step($/;"	m	class:LMSDiscreteScheduler
+step	src/diffusers/schedulers/scheduling_pndm.py	/^    def step($/;"	m	class:PNDMScheduler
+step	src/diffusers/training_utils.py	/^    def step(self, new_model):$/;"	m	class:EMAModel
+step_correct	src/diffusers/schedulers/scheduling_karras_ve.py	/^    def step_correct($/;"	m	class:KarrasVeScheduler
+step_correct	src/diffusers/schedulers/scheduling_sde_ve.py	/^    def step_correct($/;"	m	class:ScoreSdeVeScheduler
+step_plms	src/diffusers/schedulers/scheduling_pndm.py	/^    def step_plms($/;"	m	class:PNDMScheduler
+step_pred	src/diffusers/schedulers/scheduling_sde_ve.py	/^    def step_pred($/;"	m	class:ScoreSdeVeScheduler
+step_pred	src/diffusers/schedulers/scheduling_sde_vp.py	/^    def step_pred(self, score, x, t):$/;"	m	class:ScoreSdeVpScheduler
+step_prk	src/diffusers/schedulers/scheduling_pndm.py	/^    def step_prk($/;"	m	class:PNDMScheduler
+style	Makefile	/^style:$/;"	t
+subfolder	scripts/change_naming_configs_and_checkpoints.py	/^    subfolder = "" if has_file(args.repo_path, "config.json") else "unet"$/;"	v
+supports_gradient_checkpointing	src/diffusers/pipelines/latent_diffusion/pipeline_latent_diffusion.py	/^    supports_gradient_checkpointing = True$/;"	v	class:LDMBertPreTrainedModel
+test	Makefile	/^test:$/;"	t
+test-examples	Makefile	/^test-examples:$/;"	t
+test_betas	tests/test_scheduler.py	/^    def test_betas(self):$/;"	m	class:DDIMSchedulerTest
+test_betas	tests/test_scheduler.py	/^    def test_betas(self):$/;"	m	class:DDPMSchedulerTest
+test_betas	tests/test_scheduler.py	/^    def test_betas(self):$/;"	m	class:PNDMSchedulerTest
+test_clip_sample	tests/test_scheduler.py	/^    def test_clip_sample(self):$/;"	m	class:DDIMSchedulerTest
+test_clip_sample	tests/test_scheduler.py	/^    def test_clip_sample(self):$/;"	m	class:DDPMSchedulerTest
+test_ddim_cifar10	tests/test_modeling_utils.py	/^    def test_ddim_cifar10(self):$/;"	m	class:PipelineTesterMixin
+test_ddim_lsun	tests/test_modeling_utils.py	/^    def test_ddim_lsun(self):$/;"	m	class:PipelineTesterMixin
+test_ddpm_cifar10	tests/test_modeling_utils.py	/^    def test_ddpm_cifar10(self):$/;"	m	class:PipelineTesterMixin
+test_ddpm_ddim_equality	tests/test_modeling_utils.py	/^    def test_ddpm_ddim_equality(self):$/;"	m	class:PipelineTesterMixin
+test_ddpm_ddim_equality_batched	tests/test_modeling_utils.py	/^    def test_ddpm_ddim_equality_batched(self):$/;"	m	class:PipelineTesterMixin
+test_determinism	tests/test_modeling_utils.py	/^    def test_determinism(self):$/;"	m	class:ModelTesterMixin
+test_downsample_default	tests/test_layers_utils.py	/^    def test_downsample_default(self):$/;"	m	class:Downsample2DBlockTests
+test_downsample_with_conv	tests/test_layers_utils.py	/^    def test_downsample_with_conv(self):$/;"	m	class:Downsample2DBlockTests
+test_downsample_with_conv_out_dim	tests/test_layers_utils.py	/^    def test_downsample_with_conv_out_dim(self):$/;"	m	class:Downsample2DBlockTests
+test_downsample_with_conv_pad1	tests/test_layers_utils.py	/^    def test_downsample_with_conv_pad1(self):$/;"	m	class:Downsample2DBlockTests
+test_ema_training	tests/test_modeling_utils.py	/^    def test_ema_training(self):$/;"	m	class:ModelTesterMixin
+test_eta	tests/test_scheduler.py	/^    def test_eta(self):$/;"	m	class:DDIMSchedulerTest
+test_forward_signature	tests/test_modeling_utils.py	/^    def test_forward_signature(self):$/;"	m	class:AutoencoderKLTests
+test_forward_signature	tests/test_modeling_utils.py	/^    def test_forward_signature(self):$/;"	m	class:ModelTesterMixin
+test_forward_signature	tests/test_modeling_utils.py	/^    def test_forward_signature(self):$/;"	m	class:VQModelTests
+test_from_pretrained_hub	tests/test_modeling_utils.py	/^    def test_from_pretrained_hub(self):$/;"	m	class:AutoencoderKLTests
+test_from_pretrained_hub	tests/test_modeling_utils.py	/^    def test_from_pretrained_hub(self):$/;"	m	class:NCSNppModelTests
+test_from_pretrained_hub	tests/test_modeling_utils.py	/^    def test_from_pretrained_hub(self):$/;"	m	class:PipelineTesterMixin
+test_from_pretrained_hub	tests/test_modeling_utils.py	/^    def test_from_pretrained_hub(self):$/;"	m	class:UNetLDMModelTests
+test_from_pretrained_hub	tests/test_modeling_utils.py	/^    def test_from_pretrained_hub(self):$/;"	m	class:VQModelTests
+test_from_pretrained_hub_pass_model	tests/test_modeling_utils.py	/^    def test_from_pretrained_hub_pass_model(self):$/;"	m	class:PipelineTesterMixin
+test_from_pretrained_save_pretrained	tests/test_modeling_utils.py	/^    def test_from_pretrained_save_pretrained(self):$/;"	m	class:ModelTesterMixin
+test_from_pretrained_save_pretrained	tests/test_modeling_utils.py	/^    def test_from_pretrained_save_pretrained(self):$/;"	m	class:PipelineTesterMixin
+test_from_pretrained_save_pretrained	tests/test_scheduler.py	/^    def test_from_pretrained_save_pretrained(self):$/;"	m	class:PNDMSchedulerTest
+test_from_pretrained_save_pretrained	tests/test_scheduler.py	/^    def test_from_pretrained_save_pretrained(self):$/;"	m	class:SchedulerCommonTest
+test_full_loop_no_noise	tests/test_scheduler.py	/^    def test_full_loop_no_noise(self):$/;"	m	class:DDIMSchedulerTest
+test_full_loop_no_noise	tests/test_scheduler.py	/^    def test_full_loop_no_noise(self):$/;"	m	class:DDPMSchedulerTest
+test_full_loop_no_noise	tests/test_scheduler.py	/^    def test_full_loop_no_noise(self):$/;"	m	class:PNDMSchedulerTest
+test_full_loop_no_noise	tests/test_scheduler.py	/^    def test_full_loop_no_noise(self):$/;"	m	class:ScoreSdeVeSchedulerTest
+test_inference_plms_no_past_residuals	tests/test_scheduler.py	/^    def test_inference_plms_no_past_residuals(self):$/;"	m	class:PNDMSchedulerTest
+test_inference_steps	tests/test_scheduler.py	/^    def test_inference_steps(self):$/;"	m	class:DDIMSchedulerTest
+test_inference_steps	tests/test_scheduler.py	/^    def test_inference_steps(self):$/;"	m	class:PNDMSchedulerTest
+test_karras_ve_pipeline	tests/test_modeling_utils.py	/^    def test_karras_ve_pipeline(self):$/;"	m	class:PipelineTesterMixin
+test_ldm_text2img	tests/test_modeling_utils.py	/^    def test_ldm_text2img(self):$/;"	m	class:PipelineTesterMixin
+test_ldm_text2img_fast	tests/test_modeling_utils.py	/^    def test_ldm_text2img_fast(self):$/;"	m	class:PipelineTesterMixin
+test_ldm_uncond	tests/test_modeling_utils.py	/^    def test_ldm_uncond(self):$/;"	m	class:PipelineTesterMixin
+test_lms_stable_diffusion_pipeline	tests/test_modeling_utils.py	/^    def test_lms_stable_diffusion_pipeline(self):$/;"	m	class:PipelineTesterMixin
+test_load_not_from_mixin	tests/test_modeling_utils.py	/^    def test_load_not_from_mixin(self):$/;"	m	class:ConfigTester
+test_model_from_config	tests/test_modeling_utils.py	/^    def test_model_from_config(self):$/;"	m	class:ModelTesterMixin
+test_output	tests/test_modeling_utils.py	/^    def test_output(self):$/;"	m	class:ModelTesterMixin
+test_output_format	tests/test_modeling_utils.py	/^    def test_output_format(self):$/;"	m	class:PipelineTesterMixin
+test_output_pretrained	tests/test_modeling_utils.py	/^    def test_output_pretrained(self):$/;"	m	class:AutoencoderKLTests
+test_output_pretrained	tests/test_modeling_utils.py	/^    def test_output_pretrained(self):$/;"	m	class:UNetLDMModelTests
+test_output_pretrained	tests/test_modeling_utils.py	/^    def test_output_pretrained(self):$/;"	m	class:VQModelTests
+test_output_pretrained_ve_large	tests/test_modeling_utils.py	/^    def test_output_pretrained_ve_large(self):$/;"	m	class:NCSNppModelTests
+test_output_pretrained_ve_mid	tests/test_modeling_utils.py	/^    def test_output_pretrained_ve_mid(self):$/;"	m	class:NCSNppModelTests
+test_pndm_cifar10	tests/test_modeling_utils.py	/^    def test_pndm_cifar10(self):$/;"	m	class:PipelineTesterMixin
+test_pytorch_equal_numpy	tests/test_scheduler.py	/^    def test_pytorch_equal_numpy(self):$/;"	m	class:DDPMSchedulerTest
+test_pytorch_equal_numpy	tests/test_scheduler.py	/^    def test_pytorch_equal_numpy(self):$/;"	m	class:PNDMSchedulerTest
+test_pytorch_equal_numpy	tests/test_scheduler.py	/^    def test_pytorch_equal_numpy(self):$/;"	m	class:SchedulerCommonTest
+test_register_to_config	tests/test_modeling_utils.py	/^    def test_register_to_config(self):$/;"	m	class:ConfigTester
+test_save_load	tests/test_modeling_utils.py	/^    def test_save_load(self):$/;"	m	class:ConfigTester
+test_schedules	tests/test_scheduler.py	/^    def test_schedules(self):$/;"	m	class:DDIMSchedulerTest
+test_schedules	tests/test_scheduler.py	/^    def test_schedules(self):$/;"	m	class:DDPMSchedulerTest
+test_schedules	tests/test_scheduler.py	/^    def test_schedules(self):$/;"	m	class:PNDMSchedulerTest
+test_score_sde_ve_pipeline	tests/test_modeling_utils.py	/^    def test_score_sde_ve_pipeline(self):$/;"	m	class:PipelineTesterMixin
+test_sigmas	tests/test_scheduler.py	/^    def test_sigmas(self):$/;"	m	class:ScoreSdeVeSchedulerTest
+test_sinoid_embeddings_hardcoded	tests/test_layers_utils.py	/^    def test_sinoid_embeddings_hardcoded(self):$/;"	m	class:EmbeddingsTests
+test_stable_diffusion	tests/test_modeling_utils.py	/^    def test_stable_diffusion(self):$/;"	m	class:PipelineTesterMixin
+test_stable_diffusion_fast_ddim	tests/test_modeling_utils.py	/^    def test_stable_diffusion_fast_ddim(self):$/;"	m	class:PipelineTesterMixin
+test_step_shape	tests/test_scheduler.py	/^    def test_step_shape(self):$/;"	m	class:PNDMSchedulerTest
+test_step_shape	tests/test_scheduler.py	/^    def test_step_shape(self):$/;"	m	class:SchedulerCommonTest
+test_step_shape	tests/test_scheduler.py	/^    def test_step_shape(self):$/;"	m	class:ScoreSdeVeSchedulerTest
+test_time_indices	tests/test_scheduler.py	/^    def test_time_indices(self):$/;"	m	class:DDIMSchedulerTest
+test_time_indices	tests/test_scheduler.py	/^    def test_time_indices(self):$/;"	m	class:DDPMSchedulerTest
+test_time_indices	tests/test_scheduler.py	/^    def test_time_indices(self):$/;"	m	class:PNDMSchedulerTest
+test_time_indices	tests/test_scheduler.py	/^    def test_time_indices(self):$/;"	m	class:ScoreSdeVeSchedulerTest
+test_timestep_defaults	tests/test_layers_utils.py	/^    def test_timestep_defaults(self):$/;"	m	class:EmbeddingsTests
+test_timestep_downscale_freq_shift	tests/test_layers_utils.py	/^    def test_timestep_downscale_freq_shift(self):$/;"	m	class:EmbeddingsTests
+test_timestep_embeddings	tests/test_layers_utils.py	/^    def test_timestep_embeddings(self):$/;"	m	class:EmbeddingsTests
+test_timestep_flip_sin_cos	tests/test_layers_utils.py	/^    def test_timestep_flip_sin_cos(self):$/;"	m	class:EmbeddingsTests
+test_timesteps	tests/test_scheduler.py	/^    def test_timesteps(self):$/;"	m	class:DDIMSchedulerTest
+test_timesteps	tests/test_scheduler.py	/^    def test_timesteps(self):$/;"	m	class:DDPMSchedulerTest
+test_timesteps	tests/test_scheduler.py	/^    def test_timesteps(self):$/;"	m	class:PNDMSchedulerTest
+test_timesteps	tests/test_scheduler.py	/^    def test_timesteps(self):$/;"	m	class:ScoreSdeVeSchedulerTest
+test_training	tests/test_modeling_utils.py	/^    def test_training(self):$/;"	m	class:AutoencoderKLTests
+test_training	tests/test_modeling_utils.py	/^    def test_training(self):$/;"	m	class:ModelTesterMixin
+test_training	tests/test_modeling_utils.py	/^    def test_training(self):$/;"	m	class:VQModelTests
+test_training_step_equality	tests/test_training.py	/^    def test_training_step_equality(self):$/;"	m	class:TrainingTests
+test_upsample_default	tests/test_layers_utils.py	/^    def test_upsample_default(self):$/;"	m	class:Upsample2DBlockTests
+test_upsample_with_conv	tests/test_layers_utils.py	/^    def test_upsample_with_conv(self):$/;"	m	class:Upsample2DBlockTests
+test_upsample_with_conv_out_dim	tests/test_layers_utils.py	/^    def test_upsample_with_conv_out_dim(self):$/;"	m	class:Upsample2DBlockTests
+test_upsample_with_transpose	tests/test_layers_utils.py	/^    def test_upsample_with_transpose(self):$/;"	m	class:Upsample2DBlockTests
+test_variance	tests/test_scheduler.py	/^    def test_variance(self):$/;"	m	class:DDIMSchedulerTest
+test_variance	tests/test_scheduler.py	/^    def test_variance(self):$/;"	m	class:DDPMSchedulerTest
+test_variance_type	tests/test_scheduler.py	/^    def test_variance_type(self):$/;"	m	class:DDPMSchedulerTest
+text	scripts/change_naming_configs_and_checkpoints.py	/^        text = reader.read()$/;"	v
+time_step	scripts/generate_logits.py	/^        time_step = torch.tensor([10] * noise.shape[0])$/;"	v
+to	src/diffusers/pipeline_utils.py	/^    def to(self, torch_device: Optional[Union[str, torch.device]] = None):$/;"	m	class:DiffusionPipeline
+to_json_file	src/diffusers/configuration_utils.py	/^    def to_json_file(self, json_file_path: Union[str, os.PathLike]):$/;"	m	class:ConfigMixin
+to_json_string	src/diffusers/configuration_utils.py	/^    def to_json_string(self) -> str:$/;"	m	class:ConfigMixin	typeref:typename:str
+torch_device	src/diffusers/testing_utils.py	/^torch_device = "cuda" if torch.cuda.is_available() else "cpu"$/;"	v
+tqdm	src/diffusers/utils/logging.py	/^tqdm = _tqdm_cls()$/;"	v
+tqdm_lib	src/diffusers/utils/logging.py	/^from tqdm import auto as tqdm_lib$/;"	x	nameref:unknown:auto
+transformers	utils/check_config_docstrings.py	/^transformers = spec.loader.load_module()$/;"	v
+transforms	examples/train_unconditional.py	/^    def transforms(examples):$/;"	f	function:main	file:
+transpose_for_scores	src/diffusers/models/attention.py	/^    def transpose_for_scores(self, projection: torch.Tensor) -> torch.Tensor:$/;"	m	class:AttentionBlockNew	typeref:typename:torch.Tensor
+unmap_to_all	src/diffusers/models/vae.py	/^    def unmap_to_all(self, inds):$/;"	m	class:VectorQuantizer
+unwrap_model	src/diffusers/modeling_utils.py	/^def unwrap_model(model: torch.nn.Module) -> torch.nn.Module:$/;"	f	typeref:typename:torch.nn.Module
+update	src/diffusers/configuration_utils.py	/^    def update(self, *args, **kwargs):$/;"	m	class:FrozenDict
+upfirdn2d_native	src/diffusers/models/resnet.py	/^def upfirdn2d_native(input, kernel, up=1, down=1, pad=(0, 0)):$/;"	f
+upsample_2d	src/diffusers/models/resnet.py	/^def upsample_2d(x, k=None, factor=2, gain=1):$/;"	f
+user_options	setup.py	/^    user_options = [$/;"	v	class:DepsTableUpdateCommand
+vqvae	scripts/convert_ldm_original_checkpoint_to_diffusers.py	/^        vqvae = VQModel.from_pretrained("\/".join(args.checkpoint_path.split("\/")[:-1]))$/;"	v
+warning_advice	src/diffusers/utils/logging.py	/^def warning_advice(self, *args, **kwargs):$/;"	f
+zero_module	src/diffusers/models/resnet.py	/^def zero_module(module):$/;"	f
+zeros_like	src/diffusers/schedulers/scheduling_utils.py	/^    def zeros_like(self, tensor):$/;"	m	class:SchedulerMixin
+{{ model_name | default("Diffusion Model") }}	src/diffusers/utils/model_card_template.md	/^# {{ model_name | default("Diffusion Model") }}$/;"	c
